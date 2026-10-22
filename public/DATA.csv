@@ -1,0 +1,419 @@
+CUSTOMER ID,CUSTOMER NAME,USERNAME,STREET NAME,HOUSE NUMBER,POSTAL CODE,CITY,MOBILE,BALANCE,latitude,longitude
+100315,sarwar sadat,Smartphone,VIA PIAVE,34,71121,FOGGIA,+39 3533515276,738.9825,41.46363,15.55314
+100201,Luthfa Begum,Luthfabegum,Via filippo turati,33,20812,Limbiate,+39 3272633373,467.993,45.59037,9.14207
+100413,KEFAYET KHALEK,AMICO,VIA cavour ,149/151,97019,VITTORIA,3.94E+11,462.694,36.950457,14.536945
+100380,M SHAHIDUL ISLAM,SAYED,Via SS Salvatore ,18,97100,Ragusa,3.94E+11,403.857,36.92547,14.73083
+100246,Bably Rashida akter,Rashidaakterbably,Corso V.Emanuele ,34,35123,Padova,3.94E+11,395.25,45.40952,11.86993
+100206,Abdul mannan Malitha,Malithatex,Via Piave ,1,21100,Varese,3.93E+11,376.7452,45.8156515,8.8317492
+100387,md edris molla,Newcoverprice,Via monfalcone,2,71121,Foggia,+39 3510188448,361.331,41.4632,15.55608
+100236,Dunia khan Marufkheil,Pennymarket,via franchino GAFFURIO,5,20124,Milano,3.94E+11,319.6502,45.4844425,9.2098457
+100367,REZAUL KARIM MAZUMDER,RemittancePoint,VIA CALDERAI,51,90133,PALERMO,3.93E+11,301.8946,38.11425,13.36302
+100118,Sumon Ali,Euroasia,Via venegoni,10,21013,Gallarate,+39 3533060618,300.075,45.6620573,8.7979178
+100128,saimum howlader,BDPHONECENTER,VIA DON LUIGI PALAZZOLO,23 E,24122,BERGAMO,3.94E+11,257.0565,45.6906074,9.6661173
+100131,RAJIV KUMAR,J&COM,VIA PRINCIPE AMEDEO,287,00185,ROMA,3.93E+11,253.5722,41.8949984,12.5065177
+100034,Swarna Akther,newkhan,Via ponte seveso,27,20125,Milano,3.94E+11,234.0013,45.4892652,9.2043489
+100209,Malik muhammad Kamran,minimarketmb,Piazza Garibaldi 12,12,20851,Lissone,3.93E+11,212.178,45.6092735,9.240698
+100352,danilo fabio livraghi,moxystore,VIA JACOPO DAL VERME,7,20159,MILANO,3.94E+11,210.5,45.4876976,9.1863541
+100263,Fahid Sharif,Virsatunes,Via trento ,49 A,25128,Brescia,+39 3313017069,205.74,45.5528043,10.2234477
+100086,Abid Narmin,Helpmobile,Via giorgio e guido paglia,34,24122,Bergamo,+39 3509996622,203.4642,45.6904291,9.6722604
+100070,hasan Sheikh,Hasansheikh,VIA carlo ardito,02-Apr,88064,Lamazia terma,3.93E+11,200.25,38.972121,16.315772
+100399,mst ayesha jumur,Jumurstore,Via ascoli piceno ,48 A,00176,Roma,+39 3807435473,200,41.88997,12.52578
+100300,ZULFIQAR ALI RAJA,RAJATECHITALIA,PIAZZA DEL TORRACCIO DI TORRENOVA,22,00133,ROMA,3.93E+11,193.7042,41.86749,12.62688
+100327,Rehman Hamid Ur ,Alimentari,Piazza matteotti,42,01033,Civita castellana,+39 3401986123,190.06,42.28891,12.41187
+100323,kamal hossain,telefoniaportamaggiore,via di porta maggiore ,58,00185,roma,3.93E+11,181.55,41.8917571,12.5138226
+100066,Tajul Islam,Eurasia2026,Viale Ercole Marelli ,306,20099,Milano,+39 3279494648,179.4175,45.5252909,9.2282769
+100135,Muhammad zulqernain  Shaker ,Zulqernain,Piazza della Sanita ,13,80136,Napoli ,3.93E+11,171.002,40.8592,14.2491
+100270,Aporna Rani,SHAYA,VIA CONTE DI TORINO,32,97013,COMISO,3.94E+11,166.5,36.946547,14.605798
+100330,Malkanthi Tissera Warnakulasuriya,Dilshanphonecenter,Via legnano,9:00 AM,98121,Messina,+39 3446013511,165.6222,38.205247,15.5588429
+100094,Shafiq  Howlader,shafiqromolo,MM2 romolo,,20143,Milano,3.93E+11,164.9095,45.4448515,9.1674028
+100359,Waseem ullah  Chaudhry ,Ullahwaseem91@gmail.com,Via Alfredo baccarini ,35,36015,Schio,3.93E+11,163.5385,45.7110331,11.3570197
+100225,EMRAN  HOWLADER,hossainemran78@gmail.com,VIA SANTI QUARANTA,17,80142,NAPOLI,3.93E+11,161.5285,40.84933,14.26779
+100035, alamin islam Md,venditacellulare,Via ponte seveso,19/30,20125,Milano,3.94E+11,160.4207,45.4889277,9.2039868
+100199,Ismail Mohamed,Kayanglobal,Via carlo amoretti ,6,20157,Milano,+39 3444400212,147.7075,45.5187583,9.1362921
+100353,Nirob Hossain,Nirobhossain,Piazza martiri di belfiore,4,31100,Treviso,3.94E+11,145.0523,45.679303,12.252954
+100042,Hasan Samir,oneservice,Via Leberotemolo,4,20126,Milano,3.94E+11,129.4185,45.473702,9.170685
+100223,Aziz Ur Rehman,Marrhaba,Via torino ,117,80142,Napoli,3.94E+11,128.4695,40.85352,14.26976
+100324,Tahseen Abbas,REHMANMOBILE,Piazza Garibaldi 6,6,20835,Muggio(MB),3.94E+11,110.814,45.62103,9.22599
+100051,Kane kalle Mohamed zawahir geb,ceylonfood,Via dei transiti,1,20127,Milano,3.93E+11,108.1616,45.4904432,9.2218536
+100271,Salma Aktar,RiparazioneEVendita,VIA DANTE ALIGHIERI,261,70122,BARI,3.94E+11,108.1295,41.1216119,16.8626676
+100317,Hussain Mahbub Anwar ,MIRAHINIMARKET,Via Giuseppe verdi 4,4,20851,Lissone(MB),3.94E+11,106.0866,45.609387,9.2352106
+100049,muhammad musa Haji,placidpoin,Via padova ,68,20131,Milano,3.93E+11,104.81,45.4914795,9.223925
+100019,Sajawal abbas Syed,Minimarket,Via liberta,78,20092,Cinisello Balsamo,3.93E+11,102.769,45.5540104,9.2163336
+100268,Antonio Frattini,Barofficina,Via santa maria a cubito ,604/ A,80145,Napoli,+39 3445655093,102.52,40.8917255,14.2208915
+100073,Madhav Sood,madhavsood,Via Milano,7:00 AM,25126,Brescia,3.93E+11,100,45.5425762,10.2080817
+100249,Saidur Rahaman ,Eurominimarket,Via Principe Amedeo ,55/a,00185,Roma,3.93E+11,100,41.8990037,12.4998838
+100014,Kumar Manoj,Shivamultiservices,Via valsassori Peroni ,86,20133,Milano,3.94E+11,97.9052,45.484008,9.236681
+100008,Sayed Abul,servizioreale,Via settembini Luigi ,43,20124,Milano ,3.94E+11,96.0304,45.4842536,9.2084217
+100190,Mohammad raju Kasam,mohammedraju,Via Ludovico montegani 21,21,20141,Milano,3.94E+11,89.6547,45.4356983,9.1781956
+100382,Nazmul  Alam,SmartShoppingCity,Via Montanaro,9C,10154,Torino,3.93E+11,85.9242,45.090768,7.6939252
+100174,Ali mohammed Showket,bismillaali,Via borgo palazzo 88,88,24125,Bergamo,3.94E+11,85.044,45.6954352,9.6856163
+100340,Md Anichuz Zaman,Zamanmdanichuz,Via Rocca Cencia,42 D,00132,Roma,+39 3511033183,82.1078,41.8648717,12.6878275
+100153,Gagandeep Singh,Apnastore,Via Milano ,65A,25126,Brescia,+39 3335780282,79.915,45.5425762,10.2080817
+100366,Muhammad Faiz Imran,Muhammadfaizimran,Via cellini,2E,34132,Trieste,+39 3509225637,77.0895,45.6562004,13.7730301
+100141,Mozibur Rahman,Amicomini,Via Carlo Farini ,68,20159,Milano ,3.93E+11,75.131,45.4936907,9.185091
+100247,hamza mazhar,bausanmobile,via rosa massara de capitani ,1,20158,milano,3.94E+11,73.439,45.50177,9.16519
+100044,Joynal Abedin ,bdes70@yahoo.com,Via Milano 70,70,80142,Napoli,3.94E+11,73.1153,40.855,14.26878
+100083,Waqas Rehman,mm.bit26,Via geremia bonomelli,5/A,24122,Bergamo,+39 327 7423741,72.8446,45.6904327,9.6733968
+100384,Qamar Afzaal,Afzaalqamar,Via caorliega 47 INT,2,30035,Mirano,+39 3509424855,70.45,45.4914929,12.0713938
+100001,Sergine Mamadou Diane ,TOTALSERVICE,piazzale nigra ,4,20158,milano,3.93E+11,70.2832,45.49662,9.17115
+100147,Bridget  Peter ,Gmt,Via Nazario Sauro ,54,44122,Ferrara,3.94E+11,70.21,44.8410175,11.6041031
+100221,Li  Chaojing,telifoniachen,Via soldati Giacomo 18,18,20154,Milano,3.94E+11,61.6345,45.4869128,9.1686498
+100071,NAZMUL HAQUE,QuickRiparo,VIA FILIPPO PARLATORE,25,00171,ROMA,3.94E+11,61.0842,41.89087,12.56462
+100368,Moulay mhamed Alaoui,ALAOUISRL,Via gicinto mompiani 10,10,20139,Milano,3.94E+11,56.73,45.43764,9.223
+100107,Islam Saima,Easymarket,Via Andrea Doria,29,20861,Brugherio,+39 3510214309,56.425,45.5521805,9.306091
+100350,SHARIFUL ALAM,ALAMSHARIFUL,VIA ORETO ,65 A,90127,PALERMO,3.93E+11,52.7,38.1081618,13.3663472
+100287,AMARJIT SINGH,AMARJIT,VIA torino ,158,12038,SAVIGLIANO,3.93E+11,52.6244,44.6531911,7.6559358
+100082,Ehsan Aminul,ehsanaminul,Via mola pier Francesco 1,1,20156,Milano,3.93E+11,52.3134,45.49839,9.14423
+100091,Walid ahmed salamh Ahmed,Mediashop,Via C. Imbonai,12,20159,Milano,+39 3804716333,50.9535,45.4653169,9.1871732
+100229,Mohammad  Alauddin ,Fastwaymultiservice,Via Michelangelo buonarroti  1/c,1/c,20900,Monza,3.94E+11,50.351,45.5814153,9.2825751
+100244,MD lavlu MD ansher,mdlavlumilano,Via sand george 2,2,20161,Milano,3.93E+11,50.35,45.51855,9.17083
+100041,Khalid Shamim ahmed,khalidcellulare,Via montecenere,36,20155,Milano,3.93E+11,50.0678,45.4724602,9.1943664
+100326,Tahseen Abbas,REHMANMOBILE2,Via Giuseppe Mazzini 43,43,20033,Solaro(MI),3.94E+11,49.39,45.6165457,9.0808771
+100185,Mohammad balal Hossain,tasmiainternational,Via lorenteggio 174,174,20146,Milano,3.94E+11,47.225,45.4488189,9.1323192
+100307,Tabrez Muhammad,mmstore,Corso Italia 38,38,20821,Meda(MB),3.93E+11,44.0062,45.6634582,9.1515335
+100120,Alam Mahabub,Mahabub,Via milano ,2,21013,Gallarate,+39 3298988873,42.5679,45.6569473,8.7985687
+100109,Mia Banna,miabanna,Viale bacchiglione,1,20139,Milano,+39 3459237684,42.29,45.4428462,9.2196039
+100111,Raimondo Colombo,Mimobile,Via carlo marochetti,7,20139,Milano,+39 3451688810,39.8064,45.4393406,9.2259138
+100075,Zhao Zhonggui,epoca27,Viale della stazione,27,25122,Brescia,+39 3888225599,38.01,45.53325,10.212948
+100346,Atif Riaz,Pacemulticenter,Viale della pace,144,36100,Vicenza,3.93E+11,36.149,45.542407,11.5724054
+100333,Rafiq Kazi,KAZIRAFIQ,Via ponte seveso 27,27,20125,MIlANO,3.94E+11,35.8713,45.4892652,9.2043489
+100354,Zahurul Islam Jewel,Jewelislam,Circonvallazione cornelia ,14,00165,Roma,+39 3512236644,35.864,41.8992,12.42738
+100238,Marcos junior Luis borja,graficastampa,Via padova 276,276,20132,Milano,3.94E+11,35.61,45.5079601,9.2458057
+100255,h m rabiur rahman,it-brands,via XVI settembre,22,00053,civitavecchia,3.94E+11,35.2836,42.09607,11.7896
+100024,Laila ferdoush Hoque,Eximpoint,Corso Guglielmo marconi ,47,20822,Seveso,3.93E+11,35.2171,45.6479061,9.1395113
+100406,Raihan Rahaman,arservice,Via Dell Acquedotto Paolo ,9,00168,Rome,3.93E+11,35.15,41.9373898,12.4268689
+100089,MD iqbal  Hossain,mdiqbal,Via padova 133,133,20127,Milano,3.94E+11,33.9855,45.4981557,9.2324267
+100045,Merlin vergini  Arockianather ,Ntjuniors,VIA GENOVA,12,80143,NAPOLI ,3.94E+11,33.2532,40.85493,14.27212
+100231,Ibrahim eldessouki moustafa Eldessouki,Matrix,Via giuseppe garibaldi ,68,29121,Piacenza,+39 3296865189,31.32,45.053417,9.6893146
+100194,Azijul Haque,Azijul,Via ferrante aporti,44,20127,Milano,3.94E+11,29.7476,45.4919829,9.2123172
+100180,Kaur Harinder,kaurgrocery,Via indipendenza 28,,24058,Bergamo,3.94E+11,28.6345,45.5199006,9.7600431
+100036,Akthar Sohail,Aktharphonecentre,Via mozart,24,20096,Pioltello,3.94E+11,28.2136,45.5057965,9.3334104
+100396,Shohal Hossain,MARWA,Via roma,23,33100,Udine,+39 3291262369,27.7533,46.0574501,13.2410653
+100136,Rima Akter,akterrima,Stazione qT8,Qt8,20148,Milano,3.94E+11,27.026,45.4860084,9.1370307
+100098,Shafiq Howlader,comasinasnc,Via comasina M3,M3,20161,Milano,3.94E+11,25.486,45.5222355,9.1660613
+100002,mohammad kamrul hasan,NBEnterprise,via imbriani,3,20158,Milano,3.93E+11,25.423,45.49719,9.17057
+100137,Kamal Hossain,Lamarmora,Via di porta maggiore,58,00185,Roma,3.93E+11,22.4592,41.8917571,12.5138226
+100369,Maurizio Uzzi,AMELETTRONICASRLS,CORSO MATTEOTTI,76,98066,PATTI,3.93E+11,22.224,38.1438528,14.9675365
+100020,Khadija Sougrate,Bazar,Via Carlo berra,44,21040,Gerenzano,3.94E+11,21.3,45.63978,9.00487
+100063,Reyad Hassan,riyadhassan,Via pacini,76,20131,Milano,3.94E+11,19.269,45.4843378,9.2356706
+100013,Jaker Hussein,sinthiya,Via Lodovico Montegani,4,20141,Milano,+39 3510630187,17.938,45.4369136,9.1780852
+100373,MOKTER SARDAR,moktersardar,Via S. Marta,12,30039,Stra,3.93E+11,15.7292,45.40969,12.00589
+100401,Masum Shaik,campo.servizi,VICO DEL CAMPO N 5 NERO INT 4 A,5,16124,GENOVA,3.94E+11,15.3,44.41262,8.92843
+100329,ABU TAYAB,TAYABABU,VIA MAQUEDA,95/97,90133,PALERMO,3.93E+11,14.468,38.11264,13.36348
+100241,Gawsour Rahman,almakkhdirahman,Via settembrini Luigi 34,34,20124,Milano,3.94E+11,14.3992,45.4829076,9.2073438
+100282,Juan carlos Avila valenzuela,anayaminimarket,Via derna 5,5,20132,Milano,3.93E+11,13.935,45.4989008,9.2356538
+100344,Rasedul Rasedul,RARSOCIETA,Via Amerigo Vespucci 10,10,21013,GALLARATE(VA),3.94E+11,13.5489,45.6643015,8.7993266
+100095,Afsar Mohammed nurul,emgconsutant,Via tibaldi 18,18,20136,Milano,3.94E+11,12.8116,45.443824,9.178997
+100038,Shezad Ashraf,alhamadenterprise,Via mozart,11,20096,Pioltello ,3.93E+11,11.707,45.505156,9.3331819
+100234,jiguo he,punto,via plinio,20,20129,milano,3.94E+11,10.5,45.4783332,9.213962
+100031,Joynul Siddiquee,joymultiservices,Via Padova,177,20127,Milano,3.93E+11,10.3255,45.5019261,9.2374456
+100363,Kazi Muhammad Nurullah,KaziMuhammad,VIA CAPPUCCINA (MESTRE) N 113 INT,8,30172,VENEZIA,3.93E+11,10,45.437934,12.331647
+100007,Nasrin Sultana,easynet,Via Luigi settembrini 56,43 e 56,20124,Milano,3.93E+11,9.7562,45.4844796,9.2090269
+100267,Rauf ahmad Sani,raufahmad,Via San Rocco 34,34,22066,Mariano comense (CO),3.93E+11,9.06,45.701687,9.176455
+100295,Islam Mollah Jahidul,jabedminimarket,Via lodino,97/99,26900,Lodi,3.93E+11,8.7711,45.3173267,9.5065181
+100065,Helal Kabir,matelecom,Via negroli,3,20133,Milano,3.94E+11,8.1071,45.4627368,9.2328571
+100157,Ashaf Mohammad,ashraftech,Corso Giuseppe Garibaldi 24/A,24/A,25122,Brescia,3.93E+11,7.2975,45.541265,10.2131108
+100005,FAROOQ NADEEM,FarooqTravels,PIAZZA CAIAZZO 02,2,20124,MILANO,3.93E+11,6.9811,45.4849193,9.2094923
+100123,Ali Wajahat,aliwajahat,Via magenta 12/B,12/B,21052,Magenta,3.94E+11,6.9206,45.599753,8.846689
+100355,ROBIN HOSSAIN,robin7,VIA CAVOUR,83,05100,TERNI,3.94E+11,6.85,42.5628395,12.6447845
+100015,Rokibul Hasan,HMmoneytransfer,Via Padova ,158,20132,Milano,3.93E+11,6.6975,45.4989221,9.2337849
+100182,Raisul alam Mohammad ,Bolognaiba7,Piazza dell unita ,13A,40128,Bologna,3.93E+11,6.45,44.5112243,11.3474376
+100258,Uddin  Helal,Newmission,Via gioberti,2,00185,Roma,3.93E+11,6.2883,41.8996647,12.5015237
+100218,Said Mohamed elshahhat Ismail,elshahhatmilano,Via morgantini 31,31,20148,Milano ,3.93E+11,6.1495,45.470046,9.1342592
+100096,Shafiq Howlader,stazionemetro3,P.le corvetto staz.metro 3,0,20139,Milano,3.93E+11,6.113,45.4379817,9.2247218
+100349,SABINA AKTER,SUNFLOWERMONEYTRANSFER,"VIA ORETO,145 PALERMO,SICILIA,90127",145,90127,Palermo,3.94E+11,6.0576,38.1064848,13.3674256
+100010,Shakhawat  Hossain ,techmilano,Via scarlatti,20,20124,Milano ,3.93E+11,5.6957,45.4832729,9.2088381
+100061,Abdelkarim Eman Kamal amin,fortunadiabdel,Via dei fiordalsi,1,20146,Milano,3.94E+11,5.4148,45.473702,9.170685
+100084,Chaudhary Saqib Ijaz,Worldcomunication,Via bonomelli,17,24100,Bergamo,+39 3926584831,5,45.6890291,9.6704601
+100339,SHAB UDDIN SHAB,UPDATESERVICING,CORSO NOVARA,21,10154,TORINO,3.93E+11,4.5854,45.0874805,7.6919848
+100243,Shoaib Raza,razashoaib,Corso Italia 7,7,20821,Meda (MB),3.94E+11,3.8795,45.6641489,9.1526665
+100004,Fama Sarnar Zaki,Alfasolutions4u,Via Franchino Gaffurio,5,20124,Milano,3.93E+11,3.28,45.4844425,9.2098457
+100378,SOBUJ AKON,GREENTEL,Corso giulio cesare,46/h,10152,Torino,3.94E+11,3.1095,45.0855813,7.6895762
+100163,Shamika Lakshan Samarasinha Rathnayaka Mudalige Don,Cellsmart,Via Porta Imperiale ,58,98123,Messina,3.94E+11,3.108,38.1868044,15.5507256
+100028,Solaiman Hannan,gazinetwork,Via Padova,213,20127,Milano,3.93E+11,2.5095,45.504103,9.2403019
+100097,Md Shahidul islam Meia,italbangla,Via monviso ,104/106,20024,Milano,+39 3286654092,2.5,45.566612,9.068593
+100213,Rashid Ahmed,afgphone,Via milanov257'como,257,22100,Como,3.94E+11,2.4,45.80027,9.08653
+100381,Muhammad asif Bhatti,Mehrannetpoint,Via Cesare rosarroll,72,80139,Napoli,3.94E+11,1.6656,40.85576,14.26436
+100012,Stefano Devstefano,Stefano,Via Settala Lodovico,51,20124,Milano,3.93E+11,1.618,45.4821863,9.2076017
+100090,Zalil Miah,anilasrl,Via ruggero boscovich 31,31,20124,Milano,3.93E+11,1.276,45.4813264,9.2051442
+100009,Chayon Amin,bismillahtech,Via Domenico Scarlatti ,19,20124,Milano,3.93E+11,1.2,45.4833721,9.2082817
+100129,Sumon Sheikh,Sheikhsumon,Piazzale lotto ,snc,20148,Milano,+39 3296998797,1.0595,45.47979,9.14433
+100361,Lucio Cateno Di cara,Feseal,Corso Garibaldi,144,94028,Villarosa,+39 3518362213,0.9225,37.58659,14.17311
+100033,MD masudur Rahman,Fatema,Viaponte seveso ,27,20125,Milano,3.93E+11,0.8979,45.4892652,9.2043489
+100364,Khuku Moni,BANGLADESHMINIMARKET,Via borgo palazzo 89 e,89 e,24125,Bergamo,3.93E+11,0.7,45.6944028,9.6889116
+100050,Mehmood Asif,asifmehmood,Via padova,70,20131,Milano,3.94E+11,0.6095,45.4916741,9.2241815
+100179,Umair Aslam,umaraslam,Via Giacomo quarenghin17/c,17/c,24122,Bergamo,3.93E+11,0.519,45.6914117,9.6663822
+100224,shahid rasool,shahidrasool1,via bologna ,136,80142,napoli,3.94E+11,0.461,40.85335,14.27048
+100080,MD kamal Bepari,beparikamal,Via varesina 61,61,20156,Milano,3.94E+11,0.2595,45.4971665,9.145694
+100081,Mahmoud Gamal Mohamed abdelkarim kawy,phoenixphone,Via varesina ,75,20156,Milano,3.94E+11,0.25,45.4980748,9.1448332
+100259,Vincent Jesudan Rishetan,VRSminimarket,Via isidoro carini ,11,90139,Palermo,+39 3204884420,0.2,38.1282505,13.3562441
+100205,Asad Sanaullah,Vareseit,Via Piave ,3,21100,Varese,3.94E+11,0.1928,45.8154476,8.8317627
+100003,GGM TESTSUPPLIER,GGMTEST,Vialamonza 347,347,20126,Milan,3.94E+11,0,45.52099,9.22722
+100006,Muhammad waliullah Munsi,meghna,Via petrella errico 19,Via petrella errico 19,20124,Milano,3.93E+11,0,45.4838587,9.2095124
+100000,Demo Reseller,demoreseller,Jesi AN,0,00000,Jesi AN,3.94E+11,0,43.5203995,13.2518499
+100139,Franco Test,Minimarketsrl,vialemonza,347,20126,Milan,3.94E+13,0,45.52099,9.22722
+100357,IGNAZIO PELLEGRINO,ELETTROMEDIASERVICE,VIA PAPA GIOVANNI XXIII,35,90011,BAGHERIA,3.93E+11,0,38.0795317,13.5179087
+100011,Muhammad  Zaman,gmm.azservizi,Via Domenico Scarlatti ,20,20124,Milano ,3.94E+11,0,45.4832729,9.2088381
+100023,Bilal Ahmed,Pakiitalia,Via saliva albiule,19,20812,Cesano maderno,3.94E+11,0,45.62016,9.11999
+100294,Dilshan Manjula fernando Pitipanage,RFMINIMARKET,viale certosa 180,180,20156,Milano,3.94E+11,0,45.4975039,9.1347708
+100022,chandu Test,testaccount,VIA GAETANO NEGRI,1,20123,MILANO,3.91E+11,0,45.4651489,9.1846526
+100016,Mohammad mahamudul hasan Mojunmder,Phonecentre,Piazza pasolini ,2,20159,Milano,3.93E+11,0,45.49595,9.18594
+100018,JOSNA AKTER,Josnaakter,VIALE TUNISIA 11,11,20124,MILANO,3.93E+11,0,45.4770752,9.2056724
+100021,live Test,livetest,VIA MURA ORIENTALI,18,60035,JESI,39324789651,0,43.495617,13.310995
+100017,Enamul Hoque,rtstelecom,Piazzale maciachini,20,20159,Milano,3.94E+11,0,45.49782,9.1844
+100025,Malik Muhammad adnan Inayat,Jonny,Via20 settembre ,02-Apr,20821,Meda,3.94E+11,0,45.6625046,9.1567532
+100079,RANU HOSSAIN,amra2,CORSETTO SANT AGATA,16/B,25020,BRESCIA,3.93E+11,0,45.5395894,10.2185771
+100030,Ahmed Elkassabi,Ahmed,C.so san pietro,18,20081,Abbiategrassa,3.94E+11,0,45.4011199,8.9160821
+100037,Haji Ghulam Abbas,asadenterprise,Via mozar,31,20096,Piolteloo,3.94E+11,0,45.4888795,9.3296999
+100217,Bakhtullah  Khan,khanmultiservizi,Via porpora 107,107,20131,Milano ,3.94E+11,0,45.486068,9.2272268
+100026,Dolon Bhuiyan,dolon,Via biffignandi,2,27029,Vigevano,3.93E+11,0,45.3124474,8.860651
+100029,Usman Muhammad,usrsmartphone,Piazza Piero Gobetti,19,20131,Milano,3.94E+11,0,45.4856334,9.2347371
+100027,Heidy flor angel Garcia ramirez,Webservice,Viapg biffignandi,26,27029,Vigevano,3.94E+11,0,45.312616,8.860993
+100039,Giusella geovana Ramos cordova,giovana,Via porpora,162,20131,Milano,3.94E+11,0,45.4860219,9.2326087
+100040,Asif  Hameed,azbcompany,Viale certosac,62,20155,Milano,3.94E+11,0,45.462473,9.223809
+100032,Shahadat Islam,Service,Via tonale ,8,20125,Milano,3.93E+11,0,45.4886,9.20346
+100121,Mijanur Rahman,Mrmulticenter,Via valerio paitone,20,25122,Brescia,+39 3275927836,0,45.5418217,10.2188045
+100303,MUHAMMAD TWAHA IRFAN,TAHA.VII,VIALE XXIV MAGGIO ,13,71121,FOGGIA,3.93E+11,0,41.46308,15.55352
+100358,JUWEL MAHMUD SWEET,FIXORA,VIA VINCENZO GIUFFRIDA ,106/A,95131,Catania,3.94E+11,0,37.521006,15.091361
+100140,Khan afzol Hussain,annurcallcenter,Viale liberta 1/D,1/D,46029,Suzzara(MN),3.94E+11,0,44.9884171,10.7399832
+100043,Nadia Irfan,irfancenter,Viale zara,21,20159,Milano ,3.93E+11,0,45.4921585,9.1921529
+100126,CHEN JIANWEI,YIERLE,PIAZZA SAN ROCCO,5,25035,OSPITALETTO,3.94E+11,0,45.55373,10.07464
+100074,Bassam Sokkar,casatitech,Via Felice casati,07-Sep,20124,Milano,3.93E+11,0,45.4772334,9.2069053
+100150,Anna Lucia De Benedictis,Dynotek.srl,VIA MOLISE,22,86039,TERMOLI,3.93E+11,0,41.9998552,14.9916622
+100101,Rashid Ullah,flyandfly,Viale dei mille,132,20812,Limbiate,+39 3273167386,0,45.59716,9.14307
+100106,Roni Haoladar,Jrsrl,Viale luigi pasteur,14,24128,Bergamo,+39 3500412231,0,45.6900323,9.6432995
+100154,SANKAR MONDAL,MONEYTRANFER,VIA DI TORPIGNATTARA,84/86,00177,ROMA,3.93E+11,0,41.8781742,12.5418467
+100116,Mukid Abdul,Madinapoint,Via carlo rota ,29,20900,Monza,+39 3508353083,0,45.5813639,9.2894038
+100160,Oliur Rahman,olirahman,Via Delle battaglie 31/a,31/a,25122,Brescia,3.94E+11,0,45.5418657,10.2164006
+100087,Mohammad Ragab,ragab,Via padova 84,84,20131,Milano,3.93E+11,0,45.4927915,9.2256635
+100112,Rokon Ahmad,Rokonroma,Viale alessandrino ,70,00172,Roma,3.94E+11,0,41.8724174,12.580261
+100085,Basit Younes,Legend,Via giacomo quarenghi,50 A,24122,Bergamo,+39 3510118901,0,45.6899517,9.6685224
+100155,Mohammad joynul Islam,IslamMohammadjoynul,Via Archimede ,101,95131,Catania ,3.93E+11,0,37.5082104,15.0949047
+100092,MD shohid Hossain,phoneshopdisahid,Via padova 68,68,20131,Milano,3.94E+11,0,45.4914795,9.223925
+100146,Juliet  Umoh,Lightshoppingcenterferrara,Via nazario ,6,44123,Ferrara,3.94E+11,0,44.8420281,11.6048842
+100117,Ali Zamin,gujjarmarket,Via corso bonomelli 116/118,116/118,25038,Rovaton(BS),3.94E+11,0,45.3616,11.18911
+100122,Tariq Maqbool,Callcenter2012,Piazza italia ,38,00071,Torvaianica,+39 3281093781,0,41.622074,12.462785
+100102,Islam Sahidul,Fastpoint,Via roma ,59,20866,Carnate,+39 3512386910,0,45.65275,9.36542
+100151,ABDUR RASHID,Grcover,Corso Carducci ,N33,58100,Grosseto ,3.93E+11,0,42.76093,11.1132
+100132,Md Sohag,Attaqwa point,Via Milano 235,235,22100,Como,3.93E+11,0,45.7993558,9.0866601
+100127,CHEN  JIANSHENG,HONGXING,VIA ROMA,3,24042,CAPRIATE SAN GERVASIO,3.94E+11,0,45.60974,9.51987
+100158,MD MOSTOFA KAMAL,prontoviterbo,VIA DELLA PETTINARA N.1/3,1,01100,VITERBO,3.93E+11,0,42.420586,12.105351
+100210,Ramzan Muhammad,himalayasnc,Via asiago 11,11,20821,Meda,3.93E+11,0,45.665104,9.17329
+100103,Abdul Kadir  Mohammed,Tscorner,Via giulio e corrado venini,65,20127,Milano,+39 3279073858,0,45.4922356,9.2161292
+100142,Muhammad twaha  Irfan,Taha,VIA FRANCESCO FIGLIOLIA,17,71121,FOGGIA,3.93E+11,0,41.45553,15.54966
+100088,Mohamed Omar makram,omarmakram,Via Chavez Giorgio 20,20,20131,Milano,3.93E+11,0,45.4924107,9.2263603
+100138,Hafazat Ullah,hafazatphone,Via Milano 5 ,5,20098,Milano,3.94E+11,0,45.4641943,9.1896346
+100076,Rakib Sheik,hossainmsaraf,Via Cristiano 17,17,20128,Milano,3.93E+11,0,45.5140531,9.1260899
+100152,Md babu  Khan,BABU,VIA SAN ROMANO ,52,44121,Ferrara ,3.94E+11,0,44.8341944,11.6192787
+100093,Abrar ahmed,coolsrl,Via milano,296,20021,Baranzate,+39 3791244444,0,45.5210433,9.1168642
+100108,Arshad Haroon,Ahmobile,Via raffaele da brescia ,9,25124,Brescia,+39 3898280964,0,45.527913,10.224084
+100113,Tarseem Lal,laltarseem,Via dante16/B bolgare,16/b,24060,Bergamo,3.94E+11,0,45.6570461,9.821542
+100149,Asjad hussain Cheema,Cheema,Corso del popolo ,69,35131,Padova,3.94E+11,0,45.4165,11.87943
+100145,MOHAMMED  ASIF,MULTIMEDIAPOINT,VIA DELLA MARRANELLA ,44/46,00176,ROMA,3.94E+11,0,41.8820733,12.5423189
+100133,MD mehidy Hasan,eurobangla,Via Milano 245,245,22100,Como,3.94E+11,0,45.80036,9.0865099
+100161,Eugenio AltomarI,COMPUTERGENIUS,Piazza Della Repubblica,41,87019,Spezzano Albanese,3.93E+11,0,39.66781,16.31032
+100046,Ravi Kishan,Cinisello ,Via Luigi mercantini,18,20158,MILANO,3.94E+11,0,45.50163,9.16351
+100077,Rakib Sheikh,sheikrakib,Via Cristiano 17,17,20128,Milano,3.93E+11,0,45.5140531,9.1260899
+100304,Fahmida Akhter,KTminisupermarket,Piazza fontana,2,20089,Rozzano,+39 3885647041,0,45.39442,9.16911
+100143,Fayyaz Ahmed  Cheema,iframinimarket,Via lorenzini 4 luzzara(RE),4,42045,Luzzara (RE),3.94E+11,0,44.9609397,10.684656
+100119,Muhammad Kashif,Applework,VIA SILVIO SESTI 58 INT 16 B,16B,87100,COSENZA,3.94E+11,0,39.311234,16.249133
+100099,Javed Haroon,Pak.cash,Via san giovanni bosco,12,20033,Solaro,+39 3894226801,0,45.61095,9.08626
+100148,EBRAHIM MATUBBER,BANGLADESHBIGIOTTERIA,Via principe amedeo,205,74123,Taranto,3.94E+11,0,40.4686,17.2483
+100104,Esam bid,Alconfessionale,Via montebianco ,10,20097,Milano,+39 3296114365,0,45.473702,9.170685
+100296,Ikram Mahmood Malik,capitalphonecenter,Via lodino,58,26900,Lodi,3.94E+11,0,45.3170439,9.5060439
+100114,Aklas Matubber,Maaminimarket,Piazzale rosa gabriele,16,20139,Milano,+39 3509506565,0,45.4381056,9.2247587
+100134,Abubakar Shaukat,Primecomo,Via milano,183,22100,Como,+39 3508429742,0,45.8015451,9.0863704
+100124,Asim Safdar mian,safdarmian,Via Galileo Galilei 4/A,4A,20152,Milano,3.94E+11,0,45.479713,9.1951587
+100159,Ahamad Khan Foysal,Khanmultiservices,Via Milano ,75/B-C,25126,Brescia,+39 3897967427,0,45.5425762,10.2080817
+100211,Akthar Mohammad  Naeem,edenservices,Via San Marco 12,12,20822,Seveso(MB),3.93E+11,0,45.6516135,9.1438303
+100360,Asif Kazi,KAZIASIFCESARE,Via Cesare beccaria 8,8,21013,Gallarate (VA),3.93E+11,0,45.6601395,8.7971816
+100048,MD Abdullah al Muti,gsbrothers,Via padova,70,20131,Milano ,3.94E+11,0,45.4916741,9.2241815
+100047,Ravi Kishan,Ravitelecom,Via Luigi mercantini,18,20158,MILANO,3.94E+11,0,45.50163,9.16351
+100060,Mohammad Jawad,mirajglobal,Via dei tulpani,18,20146,Milano,3.93E+11,0,45.45857,9.15927
+100052,Mamoona Irfan,irfanmamoona,Via altamura saverio,7,20148,Milano,3.94E+11,0,45.4689444,9.1406119
+100056,Fatema Akter,noorfatema,Via dei transiti ,27,20127,Milano,3.94E+11,0,45.4909655,9.218681
+100053,Muhammad haroon Sajjad,qamarservice,Via Carlo dolci,18,20148,Milano,3.94E+11,0,45.4729823,9.1421719
+100055,Fatima Akter,fatemanoor,Via dei transiti ,27,20127,Milano,3.94E+11,0,45.4909655,9.218681
+100054,Mohammad sohrab Hossain,trustpointservice,Via Ernesto breda,43,20099,Sesto san giovanni,3.94E+11,0,45.531999,9.229559
+100057,Mohammad mahamudul hasan Mojumder,mojumderplana,Via g Antonio plana,37,20155,Milano,3.94E+11,0,45.49106,9.15215
+100058,Ridoy Khan,khanphonecenter,Via giambellino,40,20146,Milano,3.94E+11,0,45.4508638,9.1488397
+100059,Chayan richard Rozario,richardzeel,Via gentile bellini,8,20146,Milno,3.93E+11,0,45.4497813,9.1434371
+100062,MD mifta elahi Khan,Aishamultiservice,Via c troya ,8/A,20144,Milano ,3.93E+11,0,45.451713,9.1543873
+100064,MD mosharrof  Hossain,zaramultiservice,Via rucellai Bernardo ,46/8,20126,Milano,3.93E+11,0,45.5120879,9.2180205
+100069,GGM Telecom,ggmtelecom,VIA MURA ORIENTALI,18,60035,JESI,3.93E+11,0,43.495617,13.310995
+100072,new  test,newtest,VIA MURA ORIENTALI,18,60035,JESI,3.94E+11,0,43.495617,13.310995
+100100,Tajel Mia,techpoint,Viale bacchiglione 14,14,20139,Milano,3.94E+11,0,45.4429417,9.2201413
+100144,dan chen,chendan,VIA DEI LAVORIERI,52,44122,FERRARA,3.93E+11,0,44.8464632,11.6069747
+100068,Rajib Chowdhury,rajibchowdhury,Viale Monza ,200,20147,Milano,3.94E+11,0,45.5104071,9.2242053
+100067,Mohammad  Monir,Mohammad2026,Via Emilio Bicocchi ,74,58022,Follonica,+39 3475886194,0,42.9243284,10.7577327
+100078,Arif hossain,amra1,via corsica ,297,25125,brescia,3.93E+11,0,45.5266965,10.2044135
+100110,Navpreet Sing,royalindianmarket,Via castelli calepio via castelli I 7,7,24060,Bergamo,3.94E+11,0,45.64845,9.91903
+100130,Alamin Garami,alamincomo,Via Luigi cadorna 32,32,22100,Como,3.94E+11,0,45.8031848,9.0857174
+100115,salam abdus,SIDRA MULTISERVICE,via delle cave ,106,00181,roma,3.93E+11,0,41.8715863,12.5312988
+100105,Suraiya Akter,Minibazar,Via Pacini,33,20131,Milano,+39 3511382683,0,45.4825593,9.229698
+100125,RONGDA LIN,RCDLIN,VIA SAN BERNARDINO,33B,24122,BERGAMO,3.94E+11,0,45.6899253,9.6632447
+100162,Evan samaradiwakara fernando Warnasuriya mahamutuwala kankanamalage,goldenceylon,Via lamarmora 69,69,25124,Brescia,3.94E+11,0,45.522912,10.2081387
+100212,Najma Firdous,moeezalimentari,Via c.cesanana 3,3,20841,Carate b.za (MB),3.93E+11,0,45.68045,9.23854
+100274,MUSTAFIJOR RAHMAN,EXTREMEINTERNATIONAL,VIA GABRIELLO CHIABRERA ,32,00145,ROMA,3.93E+11,0,41.855773,12.4796266
+100305,Muhammad Qasim,Smartmobile,Via piave ,19,71121,Foggia ,+39 3512234744,0,41.46354,15.55338
+100251,SONIA AKTER,AKTERSONIA,VIA ARCHIMEDE ,98,90139,PALERMO,3.93E+11,0,38.12963,13.35705
+100281,Muhammad  Luqman,Noordeentravelemoneytransfer,VIA RENO EST,17,40015,GALLIERA,3.94E+11,0,44.7363083,11.5068013
+100237,Mohcine Essaid,Skardios,Corso svizzera,60 b,10143,Torino,+39 3920851432,0,45.0813758,7.6509946
+100312,aamir rafique,newphone,VIA PODGORA ,26,71121,FOGGIA,3.93E+11,0,41.46345,15.55292
+100311,kashif zaman,pakmobile,VIA PODGORA,39,71121,FOGGIA,3.94E+11,0,41.4634,15.55288
+100319,MARIO DI IORIO,mariodiiorio,VIA ISTONIA,170,66033,CASTIGLIONE MESSER MARINO,3.93E+11,0,41.86849,14.45487
+100288,muhammad asim,Itehadgood,VIA LIVRAGHI,1/G,40121,BOLOGNA,+39 3510214321,0,44.4950658,11.3395882
+100331,Rana Molla,Ranamolla,Via Maqueda,90,90133,Palermo,+39 3387646620,0,38.11234,13.36368
+100370,Choton Sarker,Frescodrinks,VIA Giocchino Rossini ,3/E,10124,TORINO,3.94E+11,0,45.068688,7.6905147
+100219,Solaiman Uddin,Opurbopoint,Via fuori porta nolana ,77,80142,Napoli,3.94E+11,0,40.84983,14.27159
+100289,Raihan Ali,Negoziodiriparazione@gmail.com,Via guglielmo marconi 18c,18c,40122,BOLOGNA,3.94E+11,0,44.4974399,11.3375584
+100239,Muhammad Asif,Pakservices,Via Bellaria ,14,40139,Bologna,3.94E+11,0,44.4785064,11.3854485
+100306,MDSHAFIUL ALAM,Shafiul,VIA DONATO JAIA,7,70124,BARI,3.94E+11,0,41.11013,16.86742
+100252,Md Faruk Hossain,suadphonetech,Via Pellegrino rossi,51,20161,Milano,3.93E+11,0,45.511228,9.1755678
+100253,Hossain Md molter,Hasna,Via Giovanni amendola,36,00185,Roma,3.94E+11,0,41.899904,12.5001102
+100260,IOLE DI PIETRO,edicola2.0,#NAME?,111,66050,SAN SALVO,3.93E+11,0,42.042888,14.738201
+100313,Khalid Khan,Khalidkhan,Via podgora ,41,71121,Foggia,+39 3512860898,0,41.46335,15.55286
+100275,muhammad adnan,SMARTFIX,Via Camollia,6,53100,Siena,3.94E+11,0,43.323958,11.327988
+100320,Md nazmul  Islsm,Ransrls,Via sacra famiglia n.3 ,3,03100,Frosinone ,3.94E+11,0,41.62677,13.32984
+100164,Sachinda pramod Dehipiti arachchige,Mercatoorientale,VIA Vincenzo Giuffrida ,65a catania,95128,Catania,3.94E+11,0,37.5181136,15.0915443
+100261,Sajid Ali,ahmedmaharservices,Piazza San Carlo 12,12,20833,Giussano,3.93E+11,0,45.6982814,9.209681
+100220,Mosharof Hossain,humairatelecom,Viale Daniele ranzonin 3,3,20149,Milano,3.93E+11,0,45.467435,9.1460561
+100226,muhammad imran,I.mobile,STRADA VILLA S GIOVANNI,133,80146,NAPOLI,3.94E+11,0,40.83773,14.30817
+100232,Elena Kkhan,Tulip,Via ernesto breda,33,20099,Sesto san giovanni,3.93E+11,0,45.5321437,9.2297427
+100314,Khalid Khan,Khalidkhan2,Via piave ,28,71121,Foggia,+39 3512860898,0,41.46356,15.55333
+100240,Alessandro Esposito,Topdigital,Via del borgo alfonsiano,6,80145,Napoli,+39 3246964131,0,40.85333,14.24751
+100245,Amshaa srls,amshaasrls,Via Ciceri Visconti,16,20137,Milano,3.94E+11,0,45.454,9.22038
+100321,Farrakh Sharif,MIANTRADE,Via Umberto tagliabue 36,36,20832,DESIO (MB),3.93E+11,0,45.6208897,9.221714
+100254,Faisal Sultan,Puntohalal,Via M. Pagano,11,86039,Termoli,+39 3508343508,0,41.99975,14.99523
+100332,Saidul Islam,SAIDULISLAM,Via Santi pietro e Paolo 4,4,20851,Lissone(MB),3.93E+11,0,45.610911,9.2396758
+100269,Victor marcos Soldevilla meza,victorsoldevilla,Viale zara 119,119,20159,Milano ,3.94E+11,0,45.4985106,9.1957453
+100276,Hans Raj,Hansraj,Via capograssa ,34,04100,Latina ,3.93E+11,0,41.44237,12.96543
+100283,Masum Mahammad,ITAMOBILE,Via Giovanni Francesco Barbieri,100,40129,Bologna,3.94E+11,0,44.516828,11.3377894
+100290,Shahadat  Hossain ,Hossain7070,Via marconi ,22C ,40122,Bologna ,3.93E+11,0,44.4981229,11.3379592
+100336,Afsar ali Syed,Syedafsar,Via xxx ottober,23/D,34100,Trieste ,3.94E+11,0,45.6466149,13.778023
+100165,Seema Dutt,Seema,Largo volontari del sangue,25/26,24069,Bergamo,+39 3392792442,0,45.6980962,9.8522974
+100214,Mushtaq Rehman,mrelectronics,Via Romagna 14,14,20811,Cesano maderno (MB),3.93E+11,0,45.6200649,9.1376805
+100227,Waheed  Ahmed,Noortravelagency,Via torino ,31,80142,Napoli,+39 3533506178,0,40.85445,14.26959
+100156,Mamun Md,MdMamun,Via archimede ,185,95131,Catania ,3.94E+11,0,37.5083825,15.0975091
+100297,MD SAIDUL ISLAM,flylab,Via Michelangelo Buonarroti,22G,20900,Monza,3.94E+11,0,45.5794155,9.2824454
+100277,irfan khan,irfankhan,via camollia ,14,53100,siena,3.94E+11,0,43.3238902,11.3278606
+100233,Shahidul Islam,tanyairnetservice,Via Bergamo 10,10,20900,Monza,3.94E+11,0,45.583763,9.2828279
+100308,SADIA PARVEEN,FASHIONBAZAR,VIA PIAVE ,31,71121,FOGGIA,3.93E+11,0,41.46363,15.55314
+100291,Vincenzo  Camaci,CamaciPlanet,Via Stefano Bilardello ,70,91025,Marsala,3.93E+11,0,37.79642,12.43645
+100262,SALVATORE TURCO,POSTALTAVILLA,VIA A RENDANO,40,87058,SPEZZANO DELLA SILA,3.94E+11,0,39.30417,16.34047
+100298,Gianni prasanga  Perera katunayakege ,GNFOOD,via pacini,"66,68",95129,catania,3.93E+11,0,37.5097166,15.0871887
+100284,ANN EVON FERNANDO WARNAKULASURIYA,Flyfamily,VIA SAMMARTINO,92,90141,PALERMO,3.94E+11,0,38.1268029,13.3488435
+100322,Carmelo Lombardi,Cellularpointmania,Via cantore grande,18,74020,Maruggio,+39 3926510064,0,40.32341,17.56827
+100215,Rupon Akter,rsglobal,Via gan pietro puricelli 5,5,21013,Gallarate,3.94E+11,0,45.6559226,8.7931657
+100166,NOOR HUSSIAN SUMON MUHAMED,SUMON,Via Roma,114,02100,Rieti,3.93E+11,0,42.40226,12.86106
+100228,Satty prosper Ighata,Asiaafricamarket,Via roma,249,29121,Piacenza,+39 3891463682,0,45.048626,9.7033945
+100316,Zohaib Hassan,HASSANZOHAIB,Via A.DE Gasperi 59  LUMEZZANE (BS),59,25065,Brescia,3.93E+11,0,45.64788,10.26487
+100328,ABU RASEL,RASELABU,VIA MAQUEDA ,70,90133,PALERMO,3.93E+11,0,38.11195,13.36394
+100256,Md shofiqul Islam,Shofiqul,Via Saragozza ,189,40135,Bologna ,3.93E+11,0,44.4889275,11.3164486
+100383,Mozibur  Rahman ,Amicomini1694,Carlo Farini ,68,20159,Milano ,3.93E+11,0,45.4936907,9.185091
+100299,Usman Rasheed,Usmanrh,Via duca degli Abruzzi ,36,73100,Lecce,3.93E+11,0,40.348205,18.1700769
+100278,Rahaman Mazumder Mohammad Mynur,Mazumder,Via massarenti,203/A,40138,Bologna,+39 3270862339,0,44.4931629,11.3853534
+100285,masud alam,hanifsas,VIA URBANA,83,00184,ROMA,3.93E+11,0,41.8952872,12.493178
+100292,Zadran  Khalid,zadrandizadran,Castano primo (mi)piazza Mazzini 97,97,20022,Castano primo,3.93E+11,0,45.5517072,8.7782201
+100337,Asif Kazi,KAZIASIF,Via Cesare beccaria 8,8,21013,Gallarate(VA),3.93E+11,0,45.6601395,8.7971816
+100309,Ziaul Alam Sayed,Ritmotech,Via dei lentuli,4,00175,Roma,+39 3888838553,0,41.8641,12.54781
+100167,RUBEL JAHID AHMED,RUBEL,VIA TORINO ,5,90133,PALERMO,3.93E+11,0,38.11103,13.36469
+100216,SALVATORE GREGORIO DEL POPOLO,SALVODELPOPOLO,VIA P.SSA DI PIEMONTE N,24,95014,GIARRE,3.93E+11,0,37.726857,15.187688
+100272,Vishal  Kamboj,Vishal,Strada litoranea ,12012,04100,Latina,3.94E+11,0,41.38934,12.95161
+100257,EMMANUELE ESPOSITO,2EXPRESS,Via Santa Maria A Cubito,564B,80145,Napoli,3.93E+11,0,40.89085,14.22241
+100279,MOHAMMED ARFAN,SAADINTERNET,VIA DI ROCCA CENCIA,30,00132,ROMA,3.94E+11,0,41.8642728,12.6878256
+100248,Anoir Mohamed,Newnitysrl,Via Principe amedeo ,59,00185,Roma,3.94E+11,0,41.8989429,12.4999855
+100235,haifeng wang,seaman748,Via Milano,74A/R,16126,GENOVA,3.93E+11,0,44.41258,8.909335
+100265,simon ahmed,bangladesh,Via del Pilastro,9,40127,Bologna,3.93E+11,0,44.5074734,11.3894472
+100264,Bepari Amin,Aminbepari,VIALE GIACOMO LEOPARDI 43 C INT,28,33100,UDINE,3.93E+11,0,46.0570683,13.2425538
+100334,AHM NURUL LATIF Rana,BORNALISRL,Via favour 15,15,21013,Gallarate,3.93E+11,0,45.6774215,8.7975189
+100286,Mohamed munail Mohamed yoosuf,starcom123,Via c . Di Cefalonia ,2/e,40125,Bologna ,3.94E+11,0,44.4948025,11.3441136
+100293,Shobuz Kholifa,minimarketdikhalifa,Via fratelli cervi 23,23,20098,San Giuliano Milanese(MI),3.93E+11,0,45.400443,9.279974
+100338,Amjad Riaz Muhammad,Mondocommunication,Piazza Greco ,7,20125,Milano,+39 3938600124,0,45.5023538,9.2114418
+100168,Ayman Mohamed Ismail Hamouda,Ayman,Via amadeo giovanni antonio ,46,00000,Milano,+39 3281813375,0,45.47098,9.23615
+100169,Titu Das,Dassreetitu,Via Giovanni Amendola ,7/f,40121,Bologna ,3.93E+11,0,44.5037284,11.3409271
+100175,Rahman Sofiqr,sofiqur,Via tiziano ,18,65124,Pescara,+39 3292621566,0,42.47192,14.20134
+100176,Sadki Youssef,Smarttelefonia,Corso vittorio veneto ,10,24046,Osio Sotto,+39 3472538087,0,45.61569,9.59025
+100170,MD LUTFUR RAHMAN,MDLUTFUR,VIA ORETO,215,90127,PALERMO,3.94E+11,0,38.105017,13.3683699
+100171,Susanna Calabrese,calabresesusanna.cs@gmail.com,via Piemonte,12,03020,CASTRO DEI VOLSCI,3.93E+11,0,41.52026,13.40199
+100172,Muhammad Waqas,Waqasmuhammad@miservizi.com,Via santa Caterina,1/A,33170,Pordenone ,3.94E+11,0,45.9598156,12.6627627
+100173,Anu Bala,Anubala,Via generale c.a. dalla chiesa,s.n.c.,24050,Calcinate,+39 3204184218,0,45.616411,9.800685
+100177,Azizul Hoque,Hoqueazizul,Via vittorio emanuele III,27,03039,Sora,+39 3298982882,0,41.721512,13.6156338
+100178,SOHEL AKON,AKON,Via Paterno ,24,95131,Catania,3.94E+11,0,37.5066231,15.0871854
+100181,MAHBUB SARKER,EASYCLICK,VIALE DELLA SERENISSIMA,17,00177,ROMA,3.93E+11,0,41.89547,12.55891
+100183,Md Sayful Islam,Sbcellulare,Via Padova ,60,20131,Milano ,3.93E+11,0,45.4906586,9.2228408
+100184,Shamim Ahamed,shamimahmed,Via Angelo inganni 103,103,20147,Milano,3.93E+11,0,45.4573809,9.1220797
+100186,Sudzhan Abdul Vakhab ,Citysupermarket,VIA DEI TRANSITI,2,20127,MILANO,3.93E+11,0,45.4905154,9.2220658
+100187,Sumenul Haque,tawhidaaccessories,Via lorenteggio 163,163,20146,Milano,3.93E+11,0,45.44975,9.1364153
+100188,Nicola Benedetti,acmebergamo,Via Piave 9,9,24036,Bergamo,3.94E+11,0,45.6957753,9.6703151
+100196,Huiyong Yun,Digito,Via Giuseppe candiani,130,20158,Milano ,3.94E+11,0,45.5029912,9.1616022
+100301,Jebon Mia,Technofix,Corso roma,33,71121,Foggia,+39 3802395169,0,41.45813,15.5523
+100189,Ehsan Elahi,BAWA,VIA DELLE GINESTRE,5,06010,CITERNA,3.94E+11,0,43.49907,12.11282
+100203,Fahim  Talukder,Talukder1237442,Via Giuseppe Garibaldi 69,69,95121,Catania,3.93E+11,0,37.5015836,15.0841272
+100191,Sohag mahbubur Rahman,sohagmahbubur,Via montegani 10,10,20141,"Milano,abbiategrasso",3.94E+11,0,45.4363868,9.1780181
+100192,AZMAT ALI,AZMAT,VIA DEI TRIBUNALI,9,64100,TERAMO,3.93E+11,0,42.65785,13.7076
+100193,MD sakib Hossain,navigliminimarket,Via Eugenio villoresi 5,5,20143,Milano,3.94E+11,0,45.4483524,9.1627409
+100222,Abdul Halim,halimabdul,Viale fulvio testi 62,62,20126,Milano,3.93E+11,0,45.5072234,9.2015422
+100200,Zauq Iqbal,Zauqiqbal,Via dei mille,138,20812,Limbiate,+39 3287755872,0,45.597083,9.1442729
+100195,Yu Jianhong,Mirtillofix,Via sempione ,50,20016,Pero,+39 3313827798,0,45.5094437,9.088971
+100371,Mintu  Md Abdul ali ,Mintu,Strada di settimo ,7/A,10154,Torino ,3.93E+11,0,45.0959617,7.7181274
+100198,Siddique Chaudhry,pakphonecenter,Via grassi giovanni Batista 1,1,20157,Milano,3.93E+11,0,45.5120258,9.1273904
+100197,Imran Muhammad,Yadgar,Via mambretti antonio,17,20157,Milano,3.94E+11,0,45.5082516,9.1332032
+100202,Fahim Talukder,Talukder123,Via Giuseppe Garibaldi ,69,95121,Catania,3.93E+11,0,37.5015836,15.0841272
+100204,Narinder Kaur,rsminimarket,Via Alessandro Volta 13,13,04011,APRILIA (LT),3.93E+11,0,41.5972497,12.6501138
+100207,AHMED RAMADAN ABDELWAHAB MAHMOUD,hodadimahmoud,Via Tito speri 5,5,20812,Limbiate,3.94E+11,0,45.5914656,9.1428873
+100208,dilawar  hossain ,dilwarinternational,Piazza 5 giornate 1,1,20812,Limbiate (MB),3.94E+11,0,45.6028693,9.1238108
+100302,Youssef Amekkaoui,Amekkaoui,Via casilina,1842,00132,Roma,+39 3533995246,0,41.8627099,12.687297
+100362,Nazia TABASSUM,Pakmoneytransfersrls,Via antonio cecchi ,70 c,10152,Torino,3.94E+11,0,45.0893734,7.6789743
+100230,Rafiqul islam Ruman,Banglar,Via roma,182,29121,Piacenza,+39 3337955351,0,45.049412,9.702341
+100250,Zahidul Hossain,Techstore,Via Ripamonti ,190,20141,Milano ,3.93E+11,0,45.4328776,9.2012501
+100310,Ziaul Alam Sayed,Ritmotech1,Via dei lentuli,4,00175,Roma,+39 3888838553,0,41.8641,12.54781
+100325,shakh yeahyea,bitycom,via di porta maggiore ,25,00185,roma,3.94E+11,0,41.8930425,12.5106834
+100242,Mohamed Esam,mdesam,Via marochetti 3,3,20139,Milano,3.93E+11,0,45.4396018,9.2254105
+100266,FARRUKH Rasheed,Farrukh,VIA TORLEONE ,51A,40125,BOLOGNA,3.93E+11,0,44.4935307,11.3566928
+100318,Shame Shek,SHAME,Via premestina ,1220,00132,Roma,+39 3533518867,0,41.8924778,12.6312573
+100273,Shaikh kamrul Hasant,Ivrelettronica,Via san vitale ,106 A,40125,Bologna,+39 3275883144,0,44.4940892,11.355287
+100280,SAQIB ALI,ALI,VIA GARIBALDI ,42,86170,ISERNIA,3.94E+11,0,41.5991327,14.236958
+100335,MOHAMMED HABIBUR HABIB,INTERNETPOINT,via pomezia,34,00183,roma,3.93E+11,0,41.8809755,12.5120514
+100341,shahid pervaiz shahid,hadienterprises,via franchino gaffurio,5,20124,Milano,3.94E+11,0,45.4844425,9.2098457
+100342,Ahmed Jahid,jpbusniesspoint,Via Gaffurio franchino,5,20124,Milano,3.94E+11,0,45.4844425,9.2098457
+100391,Amirul Islam,Amirulislam,Via benedetto croce,2,52100,Arezzo,+39 3334225506,0,43.46397,11.85936
+100398,Shasha Yu,Geniustech,Via antonio gramsci,48,20032,Cormano,+39 3938519999,0,45.5388757,9.1663003
+100372,BOUCHAIB EL HASSANI,SIMOPHONE,CORSO ARMANDO DIAZ,9,12084,MONDOVI,3.94E+11,0,44.3962968,7.8186717
+100379,Mahadi Hossain,Mahadi24,Corso largo giulio cesare ,113,10155,Torino,3.94E+11,0,45.092326,7.6934325
+100343,Ishtiaq Ahmed,globalshop,Via Melo da Bari,183,70121,Bari,3.94E+11,0,41.1205984,16.8715012
+100403,MAJED HOSSAIN,Bloobfashion,Via San Luca,34R,16124,Genova,3.93E+11,0,44.4109209,8.9298575
+100392,Harun Or Rashid Dhali,DHALI,Via Pian due torri,22,00146,Roma,+39 3208054664,0,41.85015,12.46015
+100405,tania farhana nasrin,tania,Via Tor Sapienza,32/b,00155,Roma,3.93E+11,0,41.90298,12.59003
+100412,Hossain  Amir,amirh32,Via Roma,41/a,18039,Ventimiglia,3.93E+11,0,43.7894689,7.6116301
+100345,Prabhandeep Kaur,Prabhandeep,VIA DELLA CRETA,11,04100,LATINA,3.93E+11,0,41.48312,12.86688
+100365,Antonino Cusiamano,Comtech,Corso umberto I,79,90011,Bagheria,+39 3454712695,0,38.0786269,13.5089155
+100400,Ala UDDIN ,Alauddin,Via Paolo sacchi ,56/H,10125,Torino ,3.94E+11,0,45.0561649,7.6724358
+100385,Zahurul Islam jewel,JUTHY,viale pinturicchio ,26,00196,Roma,+39 3936249464,0,41.9328932,12.4667078
+100393,Gurdev Singh,Bajwaministore,Via Principe Amedeo ,1,12035,Racconigi ,3.94E+11,0,44.7702,7.67973
+100407,Kulsuma akter Mollah,KulsumaAkterMollah,Via Cornigliano ,118r ,16152,Genova,3.94E+11,0,44.4161643,8.8748562
+100402,farhan ali,farhan,VIA DEL CAMPO ,14 r,16124,GENOVA,3.93E+11,0,44.4126683,8.9277219
+100404,zaiqian xu,xuripari,via manin ,40,30026,portogruaro,3.94E+11,0,45.77386,12.84123
+100408,Shamin Ahmed,BHUIYANEXCHANGE,Via Olivi,27,30171,Venezia,+39 3924403073,0,45.491336,12.241624
+100374,Shahbaz Muhammad,Shahbaz,Via stefano cansacchi,82/84,00121,Roma,3.93E+11,0,41.7338093,12.2757003
+100394,firoz mahamud,ASIANPOINT,VIA DELL IMPRUNETA ,32,00146,ROMA,3.94E+11,0,41.84595,12.4614611
+100414,ASAD MIAH,SAPORIITALIANI,Via Flaminia ,1209,00188,Roma,3.94E+11,0,41.9886335,12.4942657
+100386,Umar Usman,Usmanumar,Via Francesco Saverio Abbrescia ,41,70121,Bari,3.93E+11,0,41.1213918,16.8760689
+100347,Mudaser Adeel,Mudaseradeel,VIA romeo battistig 1 ,1,33100,UDINE,3.94E+11,0,46.0570741,13.2399017
+100395,Arif Talukdar ,Quidgaka222,Via Bernardino galliari ,10bis,10125,Torino,3.93E+11,0,45.0600607,7.6811224
+100375,Belal uddin Mohammed,Z@Zmohammed,Corso Giulio cesare,43,10152,TORINO,3.94E+11,0,45.0848392,7.6887138
+100388,fatima ijaz,ijaz2008,Viale vasco de gama,113,00121,Roma,+39 3292928854,0,41.7341839,12.2756032
+100409,Ndeye Khady Ndiaye,Chezawa,Via roma,68,14053,Canelli,+39 3930335089,0,44.71977,8.28926
+100415,Sanjida Sultana,Anayamultiservizi,Via padova,390,20132,Milano,+39 3508921427,0,45.5081996,9.2459333
+100348,Rahul Khairul Islam,Raulminimarket,Corso garibaldi ,64,80142,Napoli,+39 3348086977,0,40.84989,14.26852
+100376,Shakir khan Khan,Akphone,VIA RENATO MARTORELLI,22,10155,TORINO,3.93E+11,0,45.0943307,7.693822
+100410,MOUSUME NUR,BISMILLAHMINIMARKET,Via Biancheri,23,16154,Genova,3.93E+11,0,44.42409,8.84855
+100389,MD TASLIM,APPLOEXR,VIA DI SAN VITO,14,00185,ROMA,3.94E+11,0,41.8957326,12.5019513
+100416,HAIDER SM,HAIDERSTORE,via prudinza15,15,18031,sanremo ,3.94E+11,0,43.81906,7.761356
+100397,Golam Kibria Masum,Euroasiaminimarket,Via etnea ,416,95125,Catania,+39 3392145663,0,37.5137917,15.0847534
+100351,MD SUHEL RANA CHOWDHURY,SHAHJALAPHONE&EXCHANGE,via vincenzo errante ,4,90127,palermo,3.93E+11,0,38.10831,13.36603
+100390,alfia gabriella patrizia secondini,Smartfix1749,VIA VINCENZO GIUFFRIDA,39,95128,CATANIA,3.93E+11,0,37.5161925,15.091813
+100356,Abul hossain Monsi,ZAMZAMMINIMARKET,Via carissimi Giacomo 2,2,20124,Milano,3.94E+11,0,45.4910664,9.2023911
+100377,MD habibur Rahman,Rainbow,Corso vittorio emanuele ,205,90049,Terrasini,3.93E+11,0,38.14936,13.08445
+100411,Kulsuma akter Mollah,KulsumaAkter,Via Cornigliano ,118,16152,Genova ,3.94E+11,0,44.416,8.87304
+100417,MD Jabed Hossain,MDjabed,P.le gabrio rosa,11,20139,Milano,+39 3511497756,0,45.4380547,9.2237803
