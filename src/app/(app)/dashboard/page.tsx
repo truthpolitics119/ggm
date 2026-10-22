@@ -24,7 +24,7 @@ export default async function DashboardPage() {
   });
   const cities = Array.from(byCity.values()).sort((a, b) => b.total - a.total).slice(0, 7);
   const recent = (interactions ?? []) as unknown as (RetailerInteraction & { retailer?: { name: string; city: string | null } })[];
-  const recentIds = new Set((recentActivity ?? []).map((i) => i.retailer_id));
+  const recentIds = new Set(((recentActivity ?? []) as { retailer_id: string }[]).map((i) => i.retailer_id));
   const followup = rows.filter((r) => getEffectiveStatus(r) === "inactive" && !recentIds.has(r.id)).slice(0, 6);
   const metrics = [
     { label: "Total retailers", value: rows.length.toLocaleString(), note: "Retailers in your network", icon: Users, tone: "blue" },
