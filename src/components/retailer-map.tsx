@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { LatLngBoundsExpression, Map as LeafletMap, Marker } from "leaflet";
-import type { Retailer } from "@/lib/types";
+import { getEffectiveStatus, type Retailer } from "@/lib/types";
 import { currency } from "@/lib/format";
 
 type LeafletModules = typeof import("leaflet");
@@ -53,7 +53,7 @@ export default function RetailerMap({ retailers }: { retailers: Retailer[] }) {
   const filtered = useMemo(() => {
     const q = query.trim().toLocaleLowerCase();
     return retailers.filter((r) =>
-      (status === "all" || r.effective_status === status) &&
+      (status === "all" || getEffectiveStatus(r) === status) &&
       (!city || r.city === city) &&
       (!q || [r.name, r.username, r.city, r.customer_id, r.street].some((v) => String(v ?? "").toLocaleLowerCase().includes(q))),
     ).sort((a, b) => sort === "name" ? a.name.localeCompare(b.name) : sort === "city" ? (a.city ?? "").localeCompare(b.city ?? "") : Number(b.balance)-Number(a.balance));
@@ -81,7 +81,8 @@ export default function RetailerMap({ retailers }: { retailers: Retailer[] }) {
     if (groupRef.current) map.removeLayer(groupRef.current);
     const mk = new Map<string, Marker>();
     const markers = filtered.map((r) => {
-      const color = r.effective_status === "active" ? "#34d27b" : "#ff5a5f";
+      const effectiveStatus = getEffectiveStatus(r);
+      const color = effectiveStatus === "active" ? "#34d27b" : "#ff5a5f";
       const marker = L.marker([r.latitude!, r.longitude!], {
         icon: L.divIcon({
           className: "rp-wrap", iconSize: [34, 44], iconAnchor: [17, 44], popupAnchor: [0, -40],
@@ -91,7 +92,7 @@ export default function RetailerMap({ retailers }: { retailers: Retailer[] }) {
       const popup = document.createElement("div");
       const title = document.createElement("h3"); title.textContent = r.name; popup.append(title);
       const username = document.createElement("div"); username.textContent = r.username ?? ""; username.className = "small"; popup.append(username);
-      const badge = document.createElement("div"); badge.className = `status-badge ${r.effective_status}`; badge.textContent = r.effective_status; popup.append(badge);
+      const badge = document.createElement("div"); badge.className = `status-badge ${effectiveStatus}`; badge.textContent = effectiveStatus; popup.append(badge);
       const list = document.createElement("dl");
       const address = [r.street, r.house_number].filter(Boolean).join(" ");
       const location = [r.postal_code, r.city].filter(Boolean).join(" ");
@@ -123,10 +124,10 @@ export default function RetailerMap({ retailers }: { retailers: Retailer[] }) {
 
   const cities = useMemo(() => {
     const counts = new Map<string, { total: number; active: number }>();
-    retailers.filter((r) => status === "all" || r.effective_status === status).forEach((r) => {
+    retailers.filter((r) => status === "all" || getEffectiveStatus(r) === status).forEach((r) => {
       const name = r.city ?? "Unspecified";
       const item = counts.get(name) ?? { total: 0, active: 0 };
-      item.total++; if (r.effective_status === "active") item.active++;
+      item.total++; if (getEffectiveStatus(r) === "active") item.active++;
       counts.set(name, item);
     });
     return Array.from(counts, ([name, value]) => ({ name, ...value })).sort((a, b) => b.total - a.total).slice(0, 6);
@@ -161,7 +162,7 @@ export default function RetailerMap({ retailers }: { retailers: Retailer[] }) {
         </button>)}
       </div>
       <div className="map-list">{filtered.length ? filtered.map((r) => <button className="map-row" key={r.id} onClick={() => flyTo(r)}>
-        <i className={`status-dot ${r.effective_status}`} style={{color:r.effective_status === "active" ? "#34d27b" : "#ff5a5f"}}/>
+        <i className={`status-dot ${getEffectiveStatus(r)}`} style={{color:getEffectiveStatus(r) === "active" ? "#34d27b" : "#ff5a5f"}}/>
         <span style={{minWidth:0}}><strong style={{display:"block",overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap"}}>{r.name}</strong><span className="small" style={{color:"#958b73"}}>{r.username} · {r.city}</span></span>
         <span className="small" style={{whiteSpace:"nowrap"}}>{currency(r.balance)}</span>
       </button>) : <div className="empty-state">No retailers match these filters.</div>}</div>
