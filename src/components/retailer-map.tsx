@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
+import { ChevronDown } from "lucide-react";
 import type { LatLngBoundsExpression, Map as LeafletMap, Marker } from "leaflet";
 import { getEffectiveStatus, type Retailer } from "@/lib/types";
 import { currency, formatPhoneNumber } from "@/lib/format";
@@ -22,6 +23,8 @@ export default function RetailerMap({ retailers }: { retailers: Retailer[] }) {
   const [sort, setSort] = useState("balance");
   const [basemap, setBasemap] = useState("dark");
   const [cluster, setCluster] = useState(true);
+  const [showCities, setShowCities] = useState(true);
+  const [showRetailers, setShowRetailers] = useState(true);
   const [mapReady, setMapReady] = useState(false);
   const [mapError, setMapError] = useState("");
 
@@ -155,27 +158,38 @@ export default function RetailerMap({ retailers }: { retailers: Retailer[] }) {
   }
 
   return <div className="map-frame">
-    <aside className="map-rail">
-      <div className="map-controls">
+    <div className="map-controls">
+      <div className="map-filter-grid">
         <input className="input map-search" value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Search name, username, city…" aria-label="Search retailers"/>
         <select className="select" value={status} onChange={(e) => setStatus(e.target.value)} aria-label="Filter status"><option value="all">All statuses</option><option value="active">Active</option><option value="inactive">Inactive</option></select>
         <select className="select" value={city} onChange={(e) => setCity(e.target.value)} aria-label="Filter city"><option value="">All cities</option>{Array.from(new Set(retailers.map((r) => r.city).filter(Boolean))).sort().map((name) => <option key={name} value={name!}>{name}</option>)}</select>
         <select className="select" value={sort} onChange={(e) => setSort(e.target.value)} aria-label="Sort retailers"><option value="balance">Highest balance</option><option value="name">Name A–Z</option><option value="city">City A–Z</option></select>
         <label className="row small map-muted"><input type="checkbox" checked={cluster} onChange={(e) => setCluster(e.target.checked)}/> Group nearby retailers</label>
-        <div className="row-between small map-gold"><strong>Top cities</strong><span>{filtered.length} shown</span></div>
-        {cities.map((c) => <button key={c.name} className="row-between small map-city" onClick={() => setCity(city === c.name ? "" : c.name)}>
-          <span className="map-city-name">{c.name}</span><span className="map-city-track"><i style={{width:`${c.total ? c.active / c.total * 100 : 0}%`}}/></span><span className="map-city-count">{c.total}</span>
-        </button>)}
       </div>
-      <div className="map-list">{filtered.length ? filtered.map((r) => <button className="map-row" key={r.id} onClick={() => flyTo(r)}>
-        <i className={`status-dot ${getEffectiveStatus(r) === "active" ? "map-active" : "map-inactive"}`}/>
-        <span className="map-retailer-name"><strong>{r.name}</strong><span className="small map-muted">{r.username} · {r.city}</span></span>
-        <span className="small" style={{whiteSpace:"nowrap"}}>{currency(r.balance)}</span>
-      </button>) : <div className="empty-state">No retailers match these filters.</div>}</div>
-    </aside>
+    </div>
     <div className="map-canvas" style={{position:"relative",minWidth:0,minHeight:0}}>
       {mapError && <div className="error-box">{mapError}</div>}
       <div ref={containerRef} id="retailer-map" role="application" aria-label="Retailer map" style={{position:"absolute",inset:0,background:"#0c0c0a"}}/>
+      <aside className="map-drawer" aria-label="Map details">
+        <section className="map-drawer-section">
+          <button className="map-drawer-heading" type="button" onClick={() => setShowCities(!showCities)} aria-expanded={showCities}>
+            <span>Top cities</span><span className="map-drawer-count">{cities.length}</span><ChevronDown size={16} className={showCities ? "map-chevron open" : "map-chevron"}/>
+          </button>
+          {showCities && <div className="map-city-list">{cities.map((c) => <button key={c.name} className="row-between small map-city" onClick={() => setCity(city === c.name ? "" : c.name)}>
+            <span className="map-city-name">{c.name}</span><span className="map-city-track"><i style={{width:`${c.total ? c.active / c.total * 100 : 0}%`}}/></span><span className="map-city-count">{c.total}</span>
+          </button>)}</div>}
+        </section>
+        <section className={showRetailers ? "map-drawer-section map-retailers-section expanded" : "map-drawer-section"}>
+          <button className="map-drawer-heading" type="button" onClick={() => setShowRetailers(!showRetailers)} aria-expanded={showRetailers}>
+            <span>Shops</span><span className="map-drawer-count">{filtered.length}</span><ChevronDown size={16} className={showRetailers ? "map-chevron open" : "map-chevron"}/>
+          </button>
+          {showRetailers && <div className="map-list">{filtered.length ? filtered.map((r) => <button className="map-row" key={r.id} onClick={() => flyTo(r)}>
+            <i className={`status-dot ${getEffectiveStatus(r) === "active" ? "map-active" : "map-inactive"}`}/>
+            <span className="map-retailer-name"><strong>{r.name}</strong><span className="small map-muted">{r.username} · {r.city}</span></span>
+            <span className="small" style={{whiteSpace:"nowrap"}}>{currency(r.balance)}</span>
+          </button>) : <div className="empty-state">No retailers match these filters.</div>}</div>}
+        </section>
+      </aside>
       <div className="map-panel" role="group" aria-label="Basemap">{[["dark","Dark"],["satellite","Satellite"],["streets","Streets"]].map(([id,label])=><button className={basemap === id ? "selected" : ""} aria-pressed={basemap === id} key={id} onClick={() => setBasemap(id)}>{label}</button>)}</div>
       <button className="map-panel map-fit" onClick={fitResults}>Fit to results</button>
       <div className="map-legend"><div><i className="status-dot map-active"/>Active</div><div><i className="status-dot map-inactive"/>Inactive</div></div>
