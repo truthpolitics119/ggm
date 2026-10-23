@@ -84,6 +84,6 @@ The installed app opens in a standalone window and still requires an internet co
 - `/login` — email/password sign-in and password reset
 - `/dashboard` — network KPIs, city activity chart, recent interactions, and follow-up list
 - `/map` — shared-shell retailer map with Esri Dark, Satellite, and Streets basemaps, clustering, filters, city summary, and detail links
-- `/retailers` and `/retailers/[id]` — search/filter/paginate, retailer profile, visit scheduling and tracking, interaction history, status controls, and admin assignment
+- `/retailers` and `/retailers/[id]` — search/filter/paginate, retailer profile, balance updates (which mark the retailer active), visit scheduling and tracking, interaction history, status controls, and admin assignment
 - `/admin/users` — admin-only user creation, role changes, deactivation, and password reset
 - `/admin/import` — admin-only CSV data upsert

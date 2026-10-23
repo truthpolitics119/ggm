@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, Eye, EyeOff } from "lucide-react";
 import type { LatLngBoundsExpression, Map as LeafletMap, Marker } from "leaflet";
 import { getEffectiveStatus, type Retailer } from "@/lib/types";
 import { currency, formatPhoneNumber } from "@/lib/format";
@@ -25,6 +25,7 @@ export default function RetailerMap({ retailers }: { retailers: Retailer[] }) {
   const [cluster, setCluster] = useState(true);
   const [showCities, setShowCities] = useState(true);
   const [showRetailers, setShowRetailers] = useState(true);
+  const [showMapDetails, setShowMapDetails] = useState(true);
   const [mapReady, setMapReady] = useState(false);
   const [mapError, setMapError] = useState("");
 
@@ -170,7 +171,7 @@ export default function RetailerMap({ retailers }: { retailers: Retailer[] }) {
     <div className="map-canvas" style={{position:"relative",minWidth:0,minHeight:0}}>
       {mapError && <div className="error-box">{mapError}</div>}
       <div ref={containerRef} id="retailer-map" role="application" aria-label="Retailer map" style={{position:"absolute",inset:0,background:"#0c0c0a"}}/>
-      <aside className="map-drawer" aria-label="Map details">
+      {showMapDetails && <aside className="map-drawer" aria-label="Map details">
         <section className="map-drawer-section">
           <button className="map-drawer-heading" type="button" onClick={() => setShowCities(!showCities)} aria-expanded={showCities}>
             <span>Top cities</span><span className="map-drawer-count">{cities.length}</span><ChevronDown size={16} className={showCities ? "map-chevron open" : "map-chevron"}/>
@@ -189,9 +190,12 @@ export default function RetailerMap({ retailers }: { retailers: Retailer[] }) {
             <span className="small" style={{whiteSpace:"nowrap"}}>{currency(r.balance)}</span>
           </button>) : <div className="empty-state">No retailers match these filters.</div>}</div>}
         </section>
-      </aside>
+      </aside>}
       <div className="map-panel" role="group" aria-label="Basemap">{[["dark","Dark"],["satellite","Satellite"],["streets","Streets"]].map(([id,label])=><button className={basemap === id ? "selected" : ""} aria-pressed={basemap === id} key={id} onClick={() => setBasemap(id)}>{label}</button>)}</div>
       <button className="map-panel map-fit" onClick={fitResults}>Fit to results</button>
+      <button className="map-panel map-details-toggle" type="button" onClick={() => setShowMapDetails(!showMapDetails)} aria-expanded={showMapDetails} aria-label={showMapDetails ? "Hide top cities and shops" : "Show top cities and shops"}>
+        {showMapDetails ? <EyeOff size={15}/> : <Eye size={15}/>}<span>{showMapDetails ? "Hide panels" : "Show panels"}</span>
+      </button>
       <div className="map-legend"><div><i className="status-dot map-active"/>Active</div><div><i className="status-dot map-inactive"/>Inactive</div></div>
       {!retailers.length && <div className="map-panel" style={{top:68}}>No geocoded retailers have been imported.</div>}
     </div>

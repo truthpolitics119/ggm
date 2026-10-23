@@ -6,6 +6,7 @@ import { currency, dateTime, formatPhoneNumber, phoneNumberDigits } from "@/lib/
 import type { Retailer, RetailerInteraction } from "@/lib/types";
 import { RetailerActivity } from "@/components/retailer-activity";
 import { RetailerVisits } from "@/components/retailer-visits";
+import { RetailerBalance } from "@/components/retailer-balance";
 import { AssignmentManager } from "@/components/assignment-manager";
 import type { RetailerVisit } from "@/lib/types";
 
@@ -40,6 +41,7 @@ export default async function RetailerDetailPage({ params }: { params: Promise<{
           {retailer.latitude && retailer.longitude && <a className="btn secondary" target="_blank" rel="noreferrer" href={`https://www.google.com/maps/dir/?api=1&destination=${retailer.latitude},${retailer.longitude}`}><Navigation size={16}/>Directions</a>}
         </div>
       </section>
+      <RetailerBalance retailerId={retailer.id} balance={Number(retailer.balance)}/>
       <RetailerActivity retailer={retailer} initialInteractions={(interactions ?? []) as unknown as RetailerInteraction[]}/>
       <RetailerVisits retailerId={retailer.id} initialVisits={(visits ?? []) as RetailerVisit[]}/>
       <section className="card card-pad" style={{gridColumn:"1/-1"}}><div className="row-between"><div><h2 style={{margin:"0 0 5px",fontSize:17}}>Interaction history</h2><span className="muted small">Status changes and team follow-ups</span></div><span className="muted small">{interactions?.length ?? 0} records</span></div>

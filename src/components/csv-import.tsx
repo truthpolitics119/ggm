@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { FileSpreadsheet, LoaderCircle, Upload } from "lucide-react";
+import { Download, FileSpreadsheet, LoaderCircle, Upload } from "lucide-react";
 import { ToastMessage } from "@/components/toast-message";
 
 type Result = { total: number; inserted: number; updated: number };
@@ -30,6 +30,8 @@ export function CsvImport() {
     {result && <ToastMessage message={`Import complete: ${result.inserted} inserted, ${result.updated} updated.`}/>}
     <div className="grid dashboard-grid split-layout">
       <section className="card card-pad"><div className="row" style={{marginBottom:16}}><span className="kpi-icon"><FileSpreadsheet size={19}/></span><div><h2 style={{fontSize:17,margin:"0 0 3px"}}>Upload CSV</h2><span className="muted small">Upserted by customer ID</span></div></div>
+        <p className="muted small" style={{margin:"0 0 16px"}}>Use the sample file as a template. Replace its example rows with your retailer data before importing.</p>
+        <a className="btn secondary" href="/sample-retailers.csv" download="sample-retailers.csv" style={{marginBottom:16,width:"fit-content"}}><Download size={16}/>Download sample CSV</a>
         <form onSubmit={submit} className="grid" style={{gap:15}}>
           <label className="field" htmlFor="csv-file"><span>CSV file</span><input id="csv-file" className="input" type="file" accept=".csv,text/csv" onChange={(e)=>setFile(e.target.files?.[0] ?? null)} required/><span className="muted small">Maximum 10 MB. Required columns: CUSTOMER ID and BALANCE. Include CUSTOMER NAME when adding new retailers; omitted columns on existing retailers are preserved.</span></label>
           {file && <div className="row small"><FileSpreadsheet size={15}/>{file.name} · {(file.size/1024).toFixed(1)} KB</div>}
