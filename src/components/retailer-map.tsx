@@ -3,9 +3,9 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { LatLngBoundsExpression, Map as LeafletMap, Marker } from "leaflet";
 import { getEffectiveStatus, type Retailer } from "@/lib/types";
-import { currency } from "@/lib/format";
+import { currency, formatPhoneNumber } from "@/lib/format";
 
-type LeafletModules = typeof import("leaflet");
+type LeafletRuntime = typeof import("leaflet").default;
 type ClusterLayer = import("leaflet").LayerGroup;
 
 const esri = "https://server.arcgisonline.com/ArcGIS/rest/services/";
@@ -15,7 +15,7 @@ export default function RetailerMap({ retailers }: { retailers: Retailer[] }) {
   const mapRef = useRef<LeafletMap | null>(null);
   const markersRef = useRef(new Map<string, Marker>());
   const groupRef = useRef<ClusterLayer | null>(null);
-  const [modules, setModules] = useState<LeafletModules | null>(null);
+  const [modules, setModules] = useState<LeafletRuntime | null>(null);
   const [status, setStatus] = useState("all");
   const [city, setCity] = useState("");
   const [query, setQuery] = useState("");
@@ -29,8 +29,12 @@ export default function RetailerMap({ retailers }: { retailers: Retailer[] }) {
     let alive = true;
     void (async () => {
       try {
-        const leaflet = await import("leaflet");
+        const leafletModule = await import("leaflet");
         await import("leaflet.markercluster");
+        const leaflet = leafletModule.default;
+        if (typeof leaflet.markerClusterGroup !== "function") {
+          throw new Error("The retailer map clustering extension could not be initialized.");
+        }
         if (alive) setModules(leaflet);
       } catch (error) {
         if (alive) setMapError(error instanceof Error ? error.message : "The map could not be loaded.");
@@ -97,7 +101,7 @@ export default function RetailerMap({ retailers }: { retailers: Retailer[] }) {
       const address = [r.street, r.house_number].filter(Boolean).join(" ");
       const location = [r.postal_code, r.city].filter(Boolean).join(" ");
       [[ "Balance", currency(r.balance) ], [ "Customer ID", String(r.customer_id) ], [ "Address", address || "—" ],
-        [ "City", location || "—" ], [ "Mobile", r.mobile || "—" ], [ "Location", "Mapped location" ]].forEach(([label, value]) => {
+        [ "City", location || "—" ], [ "Mobile", formatPhoneNumber(r.mobile) ], [ "Location", "Mapped location" ]].forEach(([label, value]) => {
           const term = document.createElement("dt"); term.textContent = label;
           const description = document.createElement("dd"); description.textContent = value;
           list.append(term, description);

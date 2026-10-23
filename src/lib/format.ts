@@ -4,6 +4,43 @@ export const currency = (value: number) =>
 export const dateTime = (value: string) =>
   new Intl.DateTimeFormat("en-GB", { dateStyle: "medium", timeStyle: "short" }).format(new Date(value));
 
+function expandScientificInteger(value: string): string {
+  const match = value.trim().match(/^([+-]?)(\d+)(?:\.(\d*))?[eE]([+-]?\d+)$/);
+  if (!match) return value.trim();
+  const [, sign, whole, fraction = "", exponentText] = match;
+  const digits = `${whole}${fraction}`;
+  const decimalPosition = whole.length + Number(exponentText);
+  if (!Number.isInteger(decimalPosition) || decimalPosition < 0 || decimalPosition > 20) return value.trim();
+  const expanded = decimalPosition >= digits.length
+    ? digits.padEnd(decimalPosition, "0")
+    : `${digits.slice(0, decimalPosition)}.${digits.slice(decimalPosition)}`;
+  const integer = expanded.split(".")[0].replace(/^0+(?=\d)/, "");
+  return `${sign}${integer}`;
+}
+
+export function phoneNumberDigits(value: string | null | undefined): string {
+  const digits = expandScientificInteger(value ?? "").replace(/\D/g, "");
+  if (digits.startsWith("0039") && digits.length === 14) return digits.slice(2);
+  if (digits.length === 10 && digits.startsWith("3")) return `39${digits}`;
+  return digits;
+}
+
+export function formatPhoneNumber(value: string | null | undefined): string {
+  const raw = expandScientificInteger(value ?? "");
+  const digits = raw.replace(/\D/g, "");
+  if (!digits) return value?.trim() || "—";
+
+  const hasItalianPrefix = digits.startsWith("39") && digits.length === 12;
+  const localNumber = hasItalianPrefix ? digits.slice(2) : digits.length === 14 && digits.startsWith("0039")
+    ? digits.slice(4)
+    : digits;
+  if (localNumber.length === 10) {
+    const formatted = `${localNumber.slice(0, 3)} ${localNumber.slice(3, 6)} ${localNumber.slice(6)}`;
+    return hasItalianPrefix || (digits.startsWith("0039") && digits.length === 14) ? `+39 ${formatted}` : formatted;
+  }
+  return raw;
+}
+
 export function csvToRows(text: string): string[][] {
   const rows: string[][] = [];
   let row: string[] = [];

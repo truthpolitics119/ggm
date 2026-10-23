@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useMemo, useState } from "react";
 import { Search, SlidersHorizontal } from "lucide-react";
 import type { Retailer } from "@/lib/types";
-import { currency } from "@/lib/format";
+import { currency, formatPhoneNumber } from "@/lib/format";
 
 type ProfileOption = { id: string; full_name: string };
 const PAGE_SIZE = 12;
@@ -43,10 +43,10 @@ export function RetailerList({ retailers, profiles, initialStatus }: { retailers
     </div></div>
     <div className="row-between" style={{margin:"0 2px 11px"}}><span className="muted small">{filtered.length} retailers <SlidersHorizontal size={13} style={{verticalAlign:"-2px",marginLeft:4}}/></span><span className="muted small">Page {page} of {pageCount}</span></div>
     <section className="card retailer-table"><div className="table-wrap"><table className="data-table"><thead><tr><th>Retailer</th><th>City</th><th>Phone</th><th>Balance</th><th>Status</th><th></th></tr></thead><tbody>
-      {visible.map((r)=><tr key={r.id}><td><Link href={`/retailers/${r.id}`}><strong>{r.name}</strong><span className="muted small" style={{display:"block"}}>#{r.customer_id} · {r.username}</span></Link></td><td>{r.city || "—"}</td><td>{r.mobile || "—"}</td><td>{currency(r.balance)}</td><td><span className={`status-badge ${r.effective_status}`}><i className="status-dot"/>{r.effective_status}</span></td><td><Link className="btn secondary" href={`/retailers/${r.id}`}>Details</Link></td></tr>)}
+      {visible.map((r)=><tr key={r.id}><td><Link href={`/retailers/${r.id}`}><strong>{r.name}</strong><span className="muted small" style={{display:"block"}}>#{r.customer_id} · {r.username}</span></Link></td><td>{r.city || "—"}</td><td>{formatPhoneNumber(r.mobile)}</td><td>{currency(r.balance)}</td><td><span className={`status-badge ${r.effective_status}`}><i className="status-dot"/>{r.effective_status}</span></td><td><Link className="btn secondary" href={`/retailers/${r.id}`}>Details</Link></td></tr>)}
       {!visible.length && <tr><td colSpan={6}><div className="empty-state">No retailers match your filters.</div></td></tr>}</tbody></table></div></section>
     <section className="retailer-grid" style={{display:"none"}}>
-      {visible.map((r)=><Link key={r.id} href={`/retailers/${r.id}`} className="card retailer-card"><div className="retailer-card-top"><div><h3>{r.name}</h3><span className="muted small">#{r.customer_id} · {r.city}</span></div><span className={`status-badge ${r.effective_status}`}>{r.effective_status}</span></div><div className="row-between"><span className="muted small">{r.mobile || "No phone"}</span><strong>{currency(r.balance)}</strong></div></Link>)}
+      {visible.map((r)=><Link key={r.id} href={`/retailers/${r.id}`} className="card retailer-card"><div className="retailer-card-top"><div><h3>{r.name}</h3><span className="muted small">#{r.customer_id} · {r.city}</span></div><span className={`status-badge ${r.effective_status}`}>{r.effective_status}</span></div><div className="row-between"><span className="muted small">{r.mobile ? formatPhoneNumber(r.mobile) : "No phone"}</span><strong>{currency(r.balance)}</strong></div></Link>)}
     </section>
     <div className="card pagination"><span>Showing {filtered.length ? (page-1)*PAGE_SIZE+1 : 0}–{Math.min(page*PAGE_SIZE,filtered.length)} of {filtered.length}</span><div className="row"><button className="btn secondary" disabled={page<=1} onClick={()=>setPage(page-1)}>Previous</button><button className="btn secondary" disabled={page>=pageCount} onClick={()=>setPage(page+1)}>Next</button></div></div>
   </div>;
