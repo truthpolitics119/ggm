@@ -5,7 +5,7 @@ import type { LatLngBoundsExpression, Map as LeafletMap, Marker } from "leaflet"
 import { getEffectiveStatus, type Retailer } from "@/lib/types";
 import { currency, formatPhoneNumber } from "@/lib/format";
 
-type LeafletRuntime = typeof import("leaflet").default;
+type LeafletRuntime = typeof import("leaflet");
 type ClusterLayer = import("leaflet").LayerGroup;
 
 const esri = "https://server.arcgisonline.com/ArcGIS/rest/services/";
@@ -31,7 +31,9 @@ export default function RetailerMap({ retailers }: { retailers: Retailer[] }) {
       try {
         const leafletModule = await import("leaflet");
         await import("leaflet.markercluster");
-        const leaflet = leafletModule.default;
+        const leaflet = (leafletModule as typeof import("leaflet") & {
+          default: LeafletRuntime;
+        }).default;
         if (typeof leaflet.markerClusterGroup !== "function") {
           throw new Error("The retailer map clustering extension could not be initialized.");
         }
