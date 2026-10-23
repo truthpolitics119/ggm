@@ -1,6 +1,7 @@
 export type Role = "admin" | "user";
 export type RetailerStatus = "active" | "inactive";
 export type InteractionType = "visit" | "call" | "whatsapp" | "email" | "transaction" | "other" | "status";
+export type RetailerVisitStatus = "planned" | "completed" | "cancelled";
 
 export interface Profile {
   id: string;
@@ -43,6 +44,17 @@ export interface RetailerInteraction {
   status_after: RetailerStatus | null;
   created_at: string;
   profile?: Pick<Profile, "full_name"> | null;
+}
+
+export interface RetailerVisit {
+  id: string;
+  retailer_id: string;
+  created_by: string;
+  scheduled_at: string;
+  note: string | null;
+  status: RetailerVisitStatus;
+  completed_at: string | null;
+  created_at: string;
 }
 
 export const getEffectiveStatus = (r: Pick<Retailer, "balance" | "status_override">): RetailerStatus =>

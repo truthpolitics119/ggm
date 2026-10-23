@@ -82,11 +82,11 @@ export default function RetailerMap({ retailers }: { retailers: Retailer[] }) {
     const mk = new Map<string, Marker>();
     const markers = filtered.map((r) => {
       const effectiveStatus = getEffectiveStatus(r);
-      const color = effectiveStatus === "active" ? "#34d27b" : "#ff5a5f";
+      const color = effectiveStatus === "active" ? "#e6c45a" : "#8d7540";
       const marker = L.marker([r.latitude!, r.longitude!], {
         icon: L.divIcon({
           className: "rp-wrap", iconSize: [34, 44], iconAnchor: [17, 44], popupAnchor: [0, -40],
-          html: `<svg width="34" height="44" viewBox="0 0 34 44" aria-hidden="true"><path d="M17 1.5c-7.5 0-13.5 5.9-13.5 13.2C3.5 26 17 42.5 17 42.5S30.5 26 30.5 14.7C30.5 7.4 24.5 1.5 17 1.5z" fill="#0f0e0b" stroke="${color}" stroke-width="2.2"/><g transform="translate(17 15.5)" fill="${color}"><path d="M-8.4-3.6h16.8l-1.3 3.1a2.1 2.1 0 0 1-1.9 1.2h-10.4a2.1 2.1 0 0 1-1.9-1.2z"/><path d="M-7 1.2h14v8.6a1.2 1.2 0 0 1-1.2 1.2h-11.6A1.2 1.2 0 0 1-7 9.8z"/><path d="M-2.4 4.4h4.8v6.6h-4.8z" fill="#0f0e0b"/></g></svg>`,
+          html: `<svg width="34" height="44" viewBox="0 0 34 44" aria-hidden="true"><path d="M17 1.5c-7.5 0-13.5 5.9-13.5 13.2C3.5 26 17 42.5 17 42.5S30.5 26 30.5 14.7C30.5 7.4 24.5 1.5 17 1.5z" fill="#0b0b0a" stroke="${color}" stroke-width="2.2"/><g transform="translate(17 15.5)" fill="${color}"><path d="M-8.4-3.6h16.8l-1.3 3.1a2.1 2.1 0 0 1-1.9 1.2h-10.4a2.1 2.1 0 0 1-1.9-1.2z"/><path d="M-7 1.2h14v8.6a1.2 1.2 0 0 1-1.2 1.2h-11.6A1.2 1.2 0 0 1-7 9.8z"/><path d="M-2.4 4.4h4.8v6.6h-4.8z" fill="#0b0b0a"/></g></svg>`,
         }),
       });
       const popup = document.createElement("div");
@@ -113,7 +113,7 @@ export default function RetailerMap({ retailers }: { retailers: Retailer[] }) {
       showCoverageOnHover: false,
       iconCreateFunction: (clusterGroup) => {
         const count = clusterGroup.getChildCount();
-        return L.divIcon({ html: `<div style="background:#17150f;color:#f1d36b;border:2px solid #d4af37;border-radius:50%;width:42px;height:42px;display:grid;place-items:center;font-weight:700">${count}</div>`, className: "marker-cluster-custom", iconSize: [42, 42] });
+        return L.divIcon({ html: `<div style="background:#11100d;color:#f1d36b;border:2px solid #d4af37;border-radius:50%;width:42px;height:42px;display:grid;place-items:center;font-weight:700">${count}</div>`, className: "marker-cluster-custom", iconSize: [42, 42] });
       },
     }) : L.layerGroup();
     markers.forEach((marker) => group.addLayer(marker));
@@ -155,15 +155,15 @@ export default function RetailerMap({ retailers }: { retailers: Retailer[] }) {
         <select className="select" value={status} onChange={(e) => setStatus(e.target.value)} aria-label="Filter status"><option value="all">All statuses</option><option value="active">Active</option><option value="inactive">Inactive</option></select>
         <select className="select" value={city} onChange={(e) => setCity(e.target.value)} aria-label="Filter city"><option value="">All cities</option>{Array.from(new Set(retailers.map((r) => r.city).filter(Boolean))).sort().map((name) => <option key={name} value={name!}>{name}</option>)}</select>
         <select className="select" value={sort} onChange={(e) => setSort(e.target.value)} aria-label="Sort retailers"><option value="balance">Highest balance</option><option value="name">Name A–Z</option><option value="city">City A–Z</option></select>
-        <label className="row small" style={{color:"#958b73"}}><input type="checkbox" checked={cluster} onChange={(e) => setCluster(e.target.checked)}/> Group nearby retailers</label>
-        <div className="row-between small" style={{color:"#d4af37"}}><strong>Top cities</strong><span>{filtered.length} shown</span></div>
-        {cities.map((c) => <button key={c.name} className="row-between small" onClick={() => setCity(city === c.name ? "" : c.name)} style={{border:0,background:"none",color:"#efe8d3",textAlign:"left",padding:"3px 0"}}>
-          <span style={{width:95,overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap"}}>{c.name}</span><span style={{height:6,background:"#ff5a5f",flex:1,borderRadius:6,overflow:"hidden"}}><i style={{display:"block",height:6,width:`${c.total ? c.active / c.total * 100 : 0}%`,background:"#34d27b"}}/></span><span style={{width:26,textAlign:"right",color:"#958b73"}}>{c.total}</span>
+        <label className="row small map-muted"><input type="checkbox" checked={cluster} onChange={(e) => setCluster(e.target.checked)}/> Group nearby retailers</label>
+        <div className="row-between small map-gold"><strong>Top cities</strong><span>{filtered.length} shown</span></div>
+        {cities.map((c) => <button key={c.name} className="row-between small map-city" onClick={() => setCity(city === c.name ? "" : c.name)}>
+          <span className="map-city-name">{c.name}</span><span className="map-city-track"><i style={{width:`${c.total ? c.active / c.total * 100 : 0}%`}}/></span><span className="map-city-count">{c.total}</span>
         </button>)}
       </div>
       <div className="map-list">{filtered.length ? filtered.map((r) => <button className="map-row" key={r.id} onClick={() => flyTo(r)}>
-        <i className={`status-dot ${getEffectiveStatus(r)}`} style={{color:getEffectiveStatus(r) === "active" ? "#34d27b" : "#ff5a5f"}}/>
-        <span style={{minWidth:0}}><strong style={{display:"block",overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap"}}>{r.name}</strong><span className="small" style={{color:"#958b73"}}>{r.username} · {r.city}</span></span>
+        <i className={`status-dot ${getEffectiveStatus(r) === "active" ? "map-active" : "map-inactive"}`}/>
+        <span className="map-retailer-name"><strong>{r.name}</strong><span className="small map-muted">{r.username} · {r.city}</span></span>
         <span className="small" style={{whiteSpace:"nowrap"}}>{currency(r.balance)}</span>
       </button>) : <div className="empty-state">No retailers match these filters.</div>}</div>
     </aside>
@@ -171,8 +171,8 @@ export default function RetailerMap({ retailers }: { retailers: Retailer[] }) {
       {mapError && <div className="error-box">{mapError}</div>}
       <div ref={containerRef} id="retailer-map" role="application" aria-label="Retailer map" style={{position:"absolute",inset:0,background:"#0c0c0a"}}/>
       <div className="map-panel" role="group" aria-label="Basemap">{[["dark","Dark"],["satellite","Satellite"],["streets","Streets"]].map(([id,label])=><button className={basemap === id ? "selected" : ""} aria-pressed={basemap === id} key={id} onClick={() => setBasemap(id)}>{label}</button>)}</div>
-      <button className="map-panel" onClick={fitResults} style={{left:"auto",right:12,top:12,color:"#f1d36b"}}>Fit to results</button>
-      <div style={{position:"absolute",zIndex:400,bottom:18,left:12,background:"#0a0906ed",border:"1px solid #2b2616",borderRadius:8,color:"#efe8d3",padding:"9px 12px",fontSize:12}}><div><i className="status-dot" style={{color:"#34d27b",marginRight:6}}/>Active</div><div style={{marginTop:5}}><i className="status-dot" style={{color:"#ff5a5f",marginRight:6}}/>Inactive</div></div>
+      <button className="map-panel map-fit" onClick={fitResults}>Fit to results</button>
+      <div className="map-legend"><div><i className="status-dot map-active"/>Active</div><div><i className="status-dot map-inactive"/>Inactive</div></div>
       {!retailers.length && <div className="map-panel" style={{top:68}}>No geocoded retailers have been imported.</div>}
     </div>
   </div>;

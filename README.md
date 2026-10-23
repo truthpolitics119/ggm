@@ -15,7 +15,7 @@ Mobile-first Next.js App Router application for retailer follow-up, status track
    - `NEXT_PUBLIC_SUPABASE_URL`
    - `NEXT_PUBLIC_SUPABASE_ANON_KEY`
    - `SUPABASE_SERVICE_ROLE_KEY` (server-only; never use a `NEXT_PUBLIC_` prefix)
-3. Apply `supabase/migrations/202610220001_initial.sql` in the Supabase SQL editor, or with the Supabase CLI:
+3. Apply all SQL files in `supabase/migrations/` in filename order in the Supabase SQL editor, or run the Supabase CLI command below:
 
    ```sh
    supabase db push
@@ -52,8 +52,10 @@ Administrators can also upload a CSV from **Admin → Import**. The supported co
 ## Access and data protection
 
 - Authenticated access is protected by middleware and the active profile check.
-- `profiles`, `retailers`, and `retailer_interactions` have RLS enabled.
+- `profiles`, `retailers`, `retailer_interactions`, and `retailer_visits` have RLS enabled.
 - Active signed-in users can read retailers and their interaction history and create their own interactions.
+- Retailer visit plans are stored in `retailer_visits`; active users can schedule visits, and the creator or an administrator can complete or cancel them. Completing a visit also appends a visit to the retailer interaction history.
+- Administrators can assign retailers to active team members from the retailer profile.
 - Status changes use the `change_retailer_status` database function, which updates the manual override and appends a status-history interaction atomically.
 - Interaction logging uses `log_retailer_interaction`; visit metadata and the interaction history are written together, and `visited_at` is kept separate from active/inactive status.
 - The retailer import database function only grants execution to `service_role`; the API additionally verifies the caller's active admin profile.
@@ -71,7 +73,7 @@ Import the repository into Vercel, set all three environment variables for the d
 
 - `/login` — email/password sign-in and password reset
 - `/dashboard` — network KPIs, city activity chart, recent interactions, and follow-up list
-- `/map` — Leaflet map with Esri Dark, Satellite, and Streets basemaps, clustering, filters, city summary, and detail links
-- `/retailers` and `/retailers/[id]` — search/filter/paginate, retailer profile, interaction history, and status controls
+- `/map` — shared-shell retailer map with Esri Dark, Satellite, and Streets basemaps, clustering, filters, city summary, and detail links
+- `/retailers` and `/retailers/[id]` — search/filter/paginate, retailer profile, visit scheduling and tracking, interaction history, status controls, and admin assignment
 - `/admin/users` — admin-only user creation, role changes, deactivation, and password reset
 - `/admin/import` — admin-only CSV data upsert
