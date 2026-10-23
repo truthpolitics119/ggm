@@ -69,6 +69,16 @@ npm run build
 
 Import the repository into Vercel, set all three environment variables for the deployment environment, and deploy. Apply Supabase migrations before routing traffic to the new deployment. Ensure Supabase Auth's allowed redirect URLs include the production origin and `${origin}/auth/update-password`.
 
+## Install on a device
+
+The app includes a web app manifest and platform icons. After deploying it to an HTTPS origin, install it from the browser:
+
+- **Desktop Chrome or Edge:** use the install icon in the address bar or choose **Install app** from the browser menu.
+- **Android:** open the app in Chrome and choose **Install app** or **Add to Home screen** from the browser menu.
+- **iPhone or iPad:** open the app in Safari, tap **Share**, then **Add to Home Screen**.
+
+The installed app opens in a standalone window and still requires an internet connection and a valid sign-in.
+
 ## Main routes
 
 - `/login` — email/password sign-in and password reset
